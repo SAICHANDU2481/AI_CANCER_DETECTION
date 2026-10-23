@@ -1,0 +1,6 @@
+Perturbation,Accuracy (%),Macro-F1 (%),Delta Macro-F1 (%),ROC-AUC,Delta ROC-AUC,Sensitivity (%),Specificity (%)
+Unperturbed Baseline,75.05,74.65,0.0,0.8303,0.0,80.09,71.82
+Mild Intensity (+5%),75.42,74.97,0.32,0.8282,-0.0021,79.62,72.73
+Mild Intensity (-5%),73.94,73.61,-1.04,0.8279,-0.0024,80.57,69.7
+Mild Gaussian Noise (sigma=0.01),74.12,73.59,-1.06,0.8294,-0.0009,76.78,72.42
+Mild Contrast Variation (+8%),74.86,74.47,-0.18,0.8261,-0.0042,80.09,71.52

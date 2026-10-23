@@ -1,0 +1,32 @@
+{
+  "512x512": {
+    "resolution": 512,
+    "batch_size": 1,
+    "forward_time_ms": 75.64,
+    "allocated_vram_mb": 126.6,
+    "reserved_vram_mb": 786.0,
+    "peak_vram_mb": 653.96,
+    "status": "PASSED",
+    "nan_inf_detected": false
+  },
+  "768x768": {
+    "resolution": 768,
+    "batch_size": 1,
+    "forward_time_ms": 172.97,
+    "allocated_vram_mb": 129.35,
+    "reserved_vram_mb": 1568.0,
+    "peak_vram_mb": 1293.71,
+    "status": "PASSED",
+    "nan_inf_detected": false
+  },
+  "1024x1024": {
+    "resolution": 1024,
+    "batch_size": 1,
+    "forward_time_ms": 313.81,
+    "allocated_vram_mb": 131.1,
+    "reserved_vram_mb": 2704.0,
+    "peak_vram_mb": 2196.46,
+    "status": "PASSED",
+    "nan_inf_detected": false
+  }
+}

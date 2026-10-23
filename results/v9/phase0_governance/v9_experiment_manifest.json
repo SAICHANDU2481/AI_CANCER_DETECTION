@@ -1,0 +1,42 @@
+{
+  "experiment_name": "V9: Targeted Localization + Multi-Candidate Fusion + Generalization + Calibration",
+  "seed": 42,
+  "phases": [
+    {
+      "phase_num": 0,
+      "phase_name": "Phase 0: Pre-Flight Governance & Checkpoint Audit",
+      "status": "COMPLETED",
+      "scope": "Audit checkpoints, verify splits, initialize directory structure, benchmark hardware."
+    },
+    {
+      "phase_num": 1,
+      "phase_name": "Phase 1: Multi-Source Proposal Generation & Label-Free Ranking",
+      "status": "PENDING",
+      "scope": "Evaluate multi-resolution (512, 768), high-res details, calcification pathway, multi-feature label-free ranking (contrast, area, eccentricity, compactness, boundary distance). Target: Recall@5 IoU>=0.30."
+    },
+    {
+      "phase_num": 2,
+      "phase_name": "Phase 2: Multi-Candidate Vision Transformer Fusion (Arms A-G)",
+      "status": "PENDING",
+      "scope": "Shared ViT backbone with candidate attention / gated pooling (K=1, 3, 5), full mammogram feature, and dedicated calcification pathway. Select by Validation Macro-F1."
+    },
+    {
+      "phase_num": 3,
+      "phase_name": "Phase 3: Controlled Generalization & Regularization",
+      "status": "PENDING",
+      "scope": "Controlled train-only augmentations (spatial, intensity, resolution), hard-example weighting, and multi-scale consistency loss to bridge the validation-test generalization gap."
+    },
+    {
+      "phase_num": 4,
+      "phase_name": "Phase 4: Validation-Only Probability Calibration",
+      "status": "PENDING",
+      "scope": "Fit temperature scaling (logits / T) on validation data only. Freeze T before test evaluation. Compute validation Brier and ECE."
+    },
+    {
+      "phase_num": 5,
+      "phase_name": "Phase 5: Single Locked Final Test Evaluation",
+      "status": "PENDING",
+      "scope": "Single locked evaluation on 525 primary / 526 comprehensive test cohort with frozen parameters and fixed threshold 0.50."
+    }
+  ]
+}

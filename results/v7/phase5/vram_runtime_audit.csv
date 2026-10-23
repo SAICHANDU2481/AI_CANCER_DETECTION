@@ -1,0 +1,7 @@
+resolution,batch_size,amp_status,peak_allocated_mb,peak_reserved_mb,latency_per_img_ms,oom_status
+512x512,1,AMP FP16 Enabled,551.09,696.0,74.13,SAFE (< 4GB)
+512x512,2,AMP FP16 Enabled,1064.28,1312.0,70.38,SAFE (< 4GB)
+768x768,1,AMP FP16 Enabled,1193.15,1478.0,161.44,SAFE (< 4GB)
+768x768,2,AMP FP16 Enabled,2348.59,2922.0,159.26,SAFE (< 4GB)
+1024x1024,1,AMP FP16 Enabled,2091.59,2466.0,287.17,SAFE (< 4GB)
+1024x1024,2,AMP FP16 Enabled,4145.28,5314.0,591.35,RISKY

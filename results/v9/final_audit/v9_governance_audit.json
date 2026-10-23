@@ -1,0 +1,10 @@
+{
+  "governance_status": "PASSED",
+  "zero_test_tuning_verified": true,
+  "no_test_labels_in_training": true,
+  "no_test_labels_in_calibration": true,
+  "no_test_labels_in_threshold_selection": true,
+  "patient_leakage": 0,
+  "evaluation_count": 1,
+  "locked_result_retained": true
+}

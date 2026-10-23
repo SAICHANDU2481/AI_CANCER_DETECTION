@@ -1,0 +1,7 @@
+{
+  "locked_model": "Arm G (K=5 + Attention + Full Mammo + Calc Patch + Context ROI)",
+  "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_g_best.pth",
+  "md5_hash": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+  "md5_verified": true,
+  "status": "FROZEN_AND_VERIFIED"
+}

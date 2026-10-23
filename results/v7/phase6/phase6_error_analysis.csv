@@ -1,0 +1,9 @@
+arm,category,count,pct_of_cohort,malignant_fn_count,benign_fp_count
+Arm B (Multi-Proposal Frozen ViT),Correctly Classified,385,71.16,53,103
+Arm B (Multi-Proposal Frozen ViT),1. Fallback-Associated Error,156,28.84,53,103
+Arm C (Multi-Proposal Last 2 Blocks),Correctly Classified,425,78.56,66,50
+Arm C (Multi-Proposal Last 2 Blocks),1. Fallback-Associated Error,116,21.44,66,50
+Arm D (Multi-Proposal Last 4 Blocks),Correctly Classified,408,75.42,51,82
+Arm D (Multi-Proposal Last 4 Blocks),1. Fallback-Associated Error,133,24.58,51,82
+Arm E2 (Multi-Proposal K=5),Correctly Classified,404,74.68,60,77
+Arm E2 (Multi-Proposal K=5),1. Fallback-Associated Error,137,25.32,60,77

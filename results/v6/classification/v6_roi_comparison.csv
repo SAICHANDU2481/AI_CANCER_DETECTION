@@ -1,0 +1,8 @@
+Metric,V5 Locked Model,V6 Final Pipeline,Delta
+Machine ROI Success Rate,11.5%,15.90%,+4.40%
+Fallback Rate,88.5%,84.10%,-4.40%
+Validation Mean Dice,9.89%,19.69%,+9.80%
+Validation Median Dice,0.00%,0.50%,+0.50%
+Validation Mean IoU,7.67%,13.93%,+6.26%
+Mass Lesion Dice,19.13%,34.29%,+15.16%
+Calcification Lesion Dice,2.30%,7.70%,+5.40%

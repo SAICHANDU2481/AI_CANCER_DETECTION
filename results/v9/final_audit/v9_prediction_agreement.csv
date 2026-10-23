@@ -1,0 +1,4 @@
+Comparison,Common Scans,Agreement (%),Disagreement (%),V9 Fixes (Prev Wrong -> V9 Correct),V9 Breaks (Prev Correct -> V9 Wrong),Net Delta (Fixes - Breaks),Both Correct,Both Wrong,V8 Arm F Malignant TP,V9 Malignant TP,V8 Arm F Benign TN,V9 Benign TN,V6 Arm C Malignant TP,V6 Arm C Benign TN,V5 Arm I Malignant TP,V5 Arm I Benign TN
+V9 Arm G vs V8 Arm F,525,67.43,32.57,81,90,-9,249,105,142.0,164,197.0,166,,,,
+V9 Arm G vs V6 Arm C,525,70.67,29.33,73,81,-8,257,114,,164,,166,144.0,194.0,,
+V9 Arm G vs V5 Arm I,525,74.29,25.71,62,73,-11,268,122,,164,,166,,,147.0,194.0

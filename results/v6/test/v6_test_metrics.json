@@ -1,0 +1,145 @@
+{
+  "evaluation_timestamp": 1790517370.0478778,
+  "date_str": "2026-09-27 19:26:10",
+  "checkpoints": {
+    "v6_segmentation": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\final\\ukan_v6_arm_g_best.pth",
+      "md5": "68cfc38cfbddd93d6e4a6e692fffbb34"
+    },
+    "v6_classification": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\classification\\vit_v6_arm_c_best.pth",
+      "md5": "508250cfc1c07af1ea7d81cc2e5a7418"
+    }
+  },
+  "cohort": {
+    "total_test_records": 526,
+    "unique_patients": 235,
+    "benign_cases": 311,
+    "malignant_cases": 215,
+    "mass_cases": 267,
+    "calc_cases": 259
+  },
+  "primary_metrics": {
+    "accuracy": 0.6445,
+    "precision": 0.5538,
+    "recall_sensitivity": 0.6698,
+    "specificity": 0.627,
+    "f1_binary": 0.6063,
+    "macro_f1": 0.6411,
+    "roc_auc": 0.7087,
+    "pr_auc": 0.5975,
+    "tn": 195,
+    "fp": 116,
+    "fn": 71,
+    "tp": 144
+  },
+  "confidence_intervals_95": {
+    "accuracy": [
+      0.6046,
+      0.6825
+    ],
+    "precision": [
+      0.4942,
+      0.614
+    ],
+    "recall_sensitivity": [
+      0.6038,
+      0.7361
+    ],
+    "specificity": [
+      0.5714,
+      0.6788
+    ],
+    "f1_binary": [
+      0.5531,
+      0.657
+    ],
+    "macro_f1": [
+      0.5982,
+      0.6793
+    ],
+    "roc_auc": [
+      0.6653,
+      0.7522
+    ],
+    "pr_auc": [
+      0.5338,
+      0.6707
+    ]
+  },
+  "subgroups": {
+    "mass": {
+      "accuracy": 0.5918,
+      "precision": 0.5633,
+      "recall_sensitivity": 0.6899,
+      "specificity": 0.5,
+      "f1_binary": 0.6202,
+      "macro_f1": 0.5895,
+      "roc_auc": 0.6427,
+      "pr_auc": 0.6294,
+      "tn": 69,
+      "fp": 69,
+      "fn": 40,
+      "tp": 89
+    },
+    "calcification": {
+      "accuracy": 0.6988,
+      "precision": 0.5392,
+      "recall_sensitivity": 0.6395,
+      "specificity": 0.7283,
+      "f1_binary": 0.5851,
+      "macro_f1": 0.6744,
+      "roc_auc": 0.7611,
+      "pr_auc": 0.5604,
+      "tn": 126,
+      "fp": 47,
+      "fn": 31,
+      "tp": 55
+    }
+  },
+  "machine_roi_quality": {
+    "machine_roi_success_rate_pct": 19.2,
+    "fallback_rate_pct": 80.8,
+    "mean_test_dice_pct": 22.79,
+    "mean_test_iou_pct": 16.31
+  },
+  "statistical_tests_vs_v5": {
+    "mcnemar_v6_correct_only": 57,
+    "mcnemar_v5_correct_only": 60,
+    "mcnemar_statistic": 0.0342,
+    "mcnemar_p_value": 0.8533074196871153,
+    "wilcoxon_statistic": 60070.0,
+    "wilcoxon_p_value": 0.008126060278068002
+  },
+  "error_analysis": {
+    "total_errors": 187,
+    "summary": [
+      {
+        "Error Category": "Fallback Crop",
+        "Count": 156,
+        "Percentage": 83.42245989304813
+      },
+      {
+        "Error Category": "Partial Lesion Capture",
+        "Count": 16,
+        "Percentage": 8.55614973262032
+      },
+      {
+        "Error Category": "Severe Segmentation Failure",
+        "Count": 11,
+        "Percentage": 5.88235294117647
+      },
+      {
+        "Error Category": "Good Localization / Classifier Error",
+        "Count": 4,
+        "Percentage": 2.13903743315508
+      }
+    ],
+    "malignant_fn_breakdown": {
+      "Fallback Crop": 63,
+      "Partial Lesion Capture": 5,
+      "Severe Segmentation Failure": 2,
+      "Good Localization / Classifier Error": 1
+    }
+  }
+}

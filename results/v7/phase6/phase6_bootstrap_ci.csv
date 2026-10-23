@@ -1,0 +1,33 @@
+arm,metric,mean,ci_lower_95,ci_upper_95,std
+Arm B (Multi-Proposal Frozen ViT),acc,71.06,65.67,76.12,2.65
+Arm B (Multi-Proposal Frozen ViT),prec,60.51,51.39,68.91,4.42
+Arm B (Multi-Proposal Frozen ViT),rec,74.94,67.42,81.61,3.63
+Arm B (Multi-Proposal Frozen ViT),spec,68.52,60.67,75.8,3.75
+Arm B (Multi-Proposal Frozen ViT),bin_f1,66.86,59.51,73.36,3.42
+Arm B (Multi-Proposal Frozen ViT),macro_f1,70.5,65.22,75.34,2.64
+Arm B (Multi-Proposal Frozen ViT),roc_auc,0.7653,0.7096,0.8164,0.0276
+Arm B (Multi-Proposal Frozen ViT),pr_auc,0.6806,0.5899,0.7614,0.0438
+Arm C (Multi-Proposal Last 2 Blocks),acc,78.47,73.94,83.09,2.38
+Arm C (Multi-Proposal Last 2 Blocks),prec,74.23,66.46,81.6,3.79
+Arm C (Multi-Proposal Last 2 Blocks),rec,68.82,61.41,76.61,4.04
+Arm C (Multi-Proposal Last 2 Blocks),spec,84.63,79.05,89.08,2.55
+Arm C (Multi-Proposal Last 2 Blocks),bin_f1,71.35,64.65,77.23,3.24
+Arm C (Multi-Proposal Last 2 Blocks),macro_f1,76.99,72.16,81.51,2.38
+Arm C (Multi-Proposal Last 2 Blocks),roc_auc,0.8244,0.7762,0.8706,0.0251
+Arm C (Multi-Proposal Last 2 Blocks),pr_auc,0.7594,0.6788,0.8257,0.0379
+Arm D (Multi-Proposal Last 4 Blocks),acc,75.22,70.41,79.97,2.42
+Arm D (Multi-Proposal Last 4 Blocks),prec,65.93,57.02,74.09,4.26
+Arm D (Multi-Proposal Last 4 Blocks),rec,75.8,68.89,82.48,3.53
+Arm D (Multi-Proposal Last 4 Blocks),spec,74.8,68.51,81.38,3.39
+Arm D (Multi-Proposal Last 4 Blocks),bin_f1,70.44,63.76,76.56,3.2
+Arm D (Multi-Proposal Last 4 Blocks),macro_f1,74.48,69.71,79.13,2.42
+Arm D (Multi-Proposal Last 4 Blocks),roc_auc,0.8401,0.7904,0.8852,0.0236
+Arm D (Multi-Proposal Last 4 Blocks),pr_auc,0.7776,0.6998,0.8448,0.0376
+Arm E2 (Multi-Proposal K=5),acc,74.48,68.96,79.52,2.76
+Arm E2 (Multi-Proposal K=5),prec,66.15,57.37,74.44,4.38
+Arm E2 (Multi-Proposal K=5),rec,71.32,63.87,78.16,3.79
+Arm E2 (Multi-Proposal K=5),spec,76.45,69.02,83.09,3.72
+Arm E2 (Multi-Proposal K=5),bin_f1,68.55,61.53,74.45,3.35
+Arm E2 (Multi-Proposal K=5),macro_f1,73.46,67.82,78.43,2.68
+Arm E2 (Multi-Proposal K=5),roc_auc,0.8158,0.7593,0.8649,0.0269
+Arm E2 (Multi-Proposal K=5),pr_auc,0.7181,0.6293,0.7949,0.0422

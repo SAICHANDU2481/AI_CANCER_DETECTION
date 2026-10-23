@@ -1,0 +1,38 @@
+{
+  "Small (<1,000 px)": {
+    "n": 260,
+    "accuracy": 63.08,
+    "precision": 47.01,
+    "sensitivity": 71.59,
+    "specificity": 58.72,
+    "f1_binary": 56.76,
+    "macro_f1": 62.27,
+    "roc_auc": 0.7033,
+    "pr_auc": 0.5169,
+    "brier": 0.2251
+  },
+  "Medium (1,000-5,000 px)": {
+    "n": 200,
+    "accuracy": 63.0,
+    "precision": 59.09,
+    "sensitivity": 79.59,
+    "specificity": 47.06,
+    "f1_binary": 67.83,
+    "macro_f1": 62.15,
+    "roc_auc": 0.6867,
+    "pr_auc": 0.677,
+    "brier": 0.2443
+  },
+  "Large (>5,000 px)": {
+    "n": 65,
+    "accuracy": 61.54,
+    "precision": 54.76,
+    "sensitivity": 79.31,
+    "specificity": 47.22,
+    "f1_binary": 64.79,
+    "macro_f1": 61.21,
+    "roc_auc": 0.682,
+    "pr_auc": 0.6726,
+    "brier": 0.2428
+  }
+}

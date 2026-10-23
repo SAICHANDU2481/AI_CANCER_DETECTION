@@ -1,0 +1,3 @@
+candidate_k,accuracy,macro_f1,binary_f1,roc_auc,pr_auc,malignant_recall,specificity,training_time_s,checkpoint
+K=3 (Arm C),78.56,77.13,71.43,0.8248,0.7576,68.72,84.85,27378.5,C:\Users\sys\OneDrive\Desktop\AI_CANCER_DETECTION\models\v7\phase6\v7_vit_arm_c_last2_best.pth
+K=5 (Arm E2),74.68,73.74,68.79,0.8186,0.717,71.56,76.67,8839.88,C:\Users\sys\OneDrive\Desktop\AI_CANCER_DETECTION\models\v7\phase6\v7_vit_arm_e2_k5_best.pth

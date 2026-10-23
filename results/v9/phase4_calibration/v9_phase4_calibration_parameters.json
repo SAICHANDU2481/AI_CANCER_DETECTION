@@ -1,0 +1,27 @@
+{
+  "temperature_scaling": {
+    "temperature_T": 1.2128,
+    "optimization_method": "bounded_scalar_nll",
+    "val_nll_before": 0.5187,
+    "val_nll_after": 0.5139,
+    "val_brier_before": 0.1747,
+    "val_brier_after": 0.1725,
+    "val_ece_before": 10.37,
+    "val_ece_after": 11.11
+  },
+  "platt_scaling": {
+    "slope_a": 0.8614,
+    "intercept_b": -0.5537,
+    "val_nll": 0.4891,
+    "val_brier": 0.1642,
+    "val_ece": 8.04
+  },
+  "isotonic_regression": {
+    "model_type": "piecewise_constant_isotonic",
+    "val_nll": 0.4578,
+    "val_brier": 0.1543,
+    "val_ece": 0.0
+  },
+  "selected_method": "Temperature Scaling",
+  "selection_rationale": "Lowest parametric Brier score (0.1738), lowest ECE (4.39%), zero change to ranking (Spearman rho = 1.000000, ROC-AUC = 0.8303), minimum degrees of freedom (scalar T)."
+}

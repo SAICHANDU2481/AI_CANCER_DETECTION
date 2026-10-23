@@ -1,0 +1,9 @@
+Ablation_ID,Configuration,Scales_Used,Quality_Vector,Dynamic_Gating,Val_Accuracy_%,Val_Macro_F1_%,Val_Binary_F1_%,Val_ROC_AUC,Val_PR_AUC,Val_Malignant_Recall_%,Val_Specificity_%,Val_Precision_%,TP,TN,FP,FN,fn
+A,V3-B Locked Benchmark Reference,Local + Med + Lrg (Cross-Attn),No,No,69.32,66.65,57.22,0.6933,0.5814,52.61,80.0,62.71,111,264,66,100.0,
+B,Local ROI Only,local,No,No,60.44,59.97,55.6,0.6709,0.5653,63.51,58.48,49.45,134,193,137,,77.0
+C,Local + Medium Context,local + medium,No,No,65.99,64.32,56.6,0.6984,0.5994,56.87,71.82,56.34,120,237,93,,91.0
+D,Local + Medium + Large Context,local + medium + large,No,No,64.51,63.38,56.95,0.6715,0.5536,60.19,67.27,54.04,127,222,108,,84.0
+E,Local + Med + Lrg + Context (Visual Only),local + medium + large + context,No,No,68.76,68.32,64.57,0.7424,0.6302,72.99,66.06,57.89,154,218,112,,57.0
+F,Multi-Scale Fusion (No Quality Vector),local + medium + large + context,No,No,68.76,68.32,64.57,0.7423,0.6301,72.99,66.06,57.89,154,218,112,,57.0
+G,Multi-Scale Fusion + 16-Dim Quality Vector (Primary V4-A),local + medium + large + context,Yes (16-dim),No,66.91,66.88,65.9,0.7568,0.6573,81.99,57.27,55.1,173,189,141,,38.0
+H,Quality-Gated Dynamic Routing (tau=0.40),local + medium + large + context,Yes (16-dim),Yes (tau=0.40),66.73,64.72,56.31,0.6828,0.582,54.98,74.24,57.71,116,245,85,,95.0

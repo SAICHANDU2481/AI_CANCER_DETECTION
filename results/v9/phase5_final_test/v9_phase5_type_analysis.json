@@ -1,0 +1,26 @@
+{
+  "Mass": {
+    "n": 267,
+    "accuracy": 62.92,
+    "precision": 58.52,
+    "sensitivity": 79.84,
+    "specificity": 47.1,
+    "f1_binary": 67.54,
+    "macro_f1": 62.15,
+    "roc_auc": 0.6896,
+    "pr_auc": 0.6749,
+    "brier": 0.2426
+  },
+  "Calcification": {
+    "n": 258,
+    "accuracy": 62.79,
+    "precision": 46.21,
+    "sensitivity": 70.93,
+    "specificity": 58.72,
+    "f1_binary": 55.96,
+    "macro_f1": 61.87,
+    "roc_auc": 0.6987,
+    "pr_auc": 0.5066,
+    "brier": 0.2264
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "arm": "Arm B",
+    "path": "models/v8/classification/vit_v8_phase2_arm_b_best.pth",
+    "md5": "9216270db2fd5d908161c82f9b8a9188",
+    "macro_f1": 71.81,
+    "acc": 72.09
+  },
+  {
+    "arm": "Arm C",
+    "path": "models/v8/classification/vit_v8_phase2_arm_c_best.pth",
+    "md5": "5c2a49d99d73b79b274a3bf76a53c8e4",
+    "macro_f1": 70.29,
+    "acc": 70.43
+  },
+  {
+    "arm": "Arm D",
+    "path": "models/v8/classification/vit_v8_phase2_arm_d_best.pth",
+    "md5": "edcbb1f13c09a7b4ca3455a5ef55aa44",
+    "macro_f1": 74.06,
+    "acc": 75.23
+  },
+  {
+    "arm": "Arm E2",
+    "path": "models/v8/classification/vit_v8_phase2_arm_e2_best.pth",
+    "md5": "3941f09c1ed5afe8d95ac87c8b9ee50a",
+    "macro_f1": 71.59,
+    "acc": 72.09
+  },
+  {
+    "arm": "Arm F",
+    "path": "models/v8/classification/vit_v8_phase2_arm_f_best.pth",
+    "md5": "882313ce67adca01bffa699a180719c4",
+    "macro_f1": 75.36,
+    "acc": 75.97
+  }
+]

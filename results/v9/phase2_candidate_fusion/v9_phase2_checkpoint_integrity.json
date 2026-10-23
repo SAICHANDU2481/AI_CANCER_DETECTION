@@ -1,0 +1,58 @@
+[
+  {
+    "arm": "Arm A (Single Top-1 Local ROI)",
+    "checkpoint_file": "v9_phase2_arm_a_best.pth",
+    "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_a_best.pth",
+    "md5_hash": "f8456f8583b8da3181e942199b662553",
+    "best_epoch": 17,
+    "val_macro_f1": 69.51
+  },
+  {
+    "arm": "Arm B (K=3 Proposals + Frozen ViT)",
+    "checkpoint_file": "v9_phase2_arm_b_best.pth",
+    "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_b_best.pth",
+    "md5_hash": "6f3d669ffe61941b8c58f1796e64b45a",
+    "best_epoch": 4,
+    "val_macro_f1": 69.96
+  },
+  {
+    "arm": "Arm C (K=5 Proposals + Frozen ViT)",
+    "checkpoint_file": "v9_phase2_arm_c_best.pth",
+    "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_c_best.pth",
+    "md5_hash": "ac328a4266cd70d09cc791920d3b86ba",
+    "best_epoch": 12,
+    "val_macro_f1": 69.87
+  },
+  {
+    "arm": "Arm D (K=5 + Candidate Attention)",
+    "checkpoint_file": "v9_phase2_arm_d_best.pth",
+    "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_d_best.pth",
+    "md5_hash": "eb345d7e04ceb41df003e19620ef52d4",
+    "best_epoch": 3,
+    "val_macro_f1": 69.18
+  },
+  {
+    "arm": "Arm E (K=5 + Attention + Full Mammo)",
+    "checkpoint_file": "v9_phase2_arm_e_best.pth",
+    "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_e_best.pth",
+    "md5_hash": "e522b9112def4173f62e86762601b943",
+    "best_epoch": 2,
+    "val_macro_f1": 74.01
+  },
+  {
+    "arm": "Arm F (K=5 + Attention + Mammo + Calc Patch)",
+    "checkpoint_file": "v9_phase2_arm_f_best.pth",
+    "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_f_best.pth",
+    "md5_hash": "e5412e79047bc23eab2a6a8c34f65853",
+    "best_epoch": 5,
+    "val_macro_f1": 73.29
+  },
+  {
+    "arm": "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)",
+    "checkpoint_file": "v9_phase2_arm_g_best.pth",
+    "checkpoint_path": "models\\v9\\phase2\\v9_phase2_arm_g_best.pth",
+    "md5_hash": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+    "best_epoch": 3,
+    "val_macro_f1": 74.65
+  }
+]

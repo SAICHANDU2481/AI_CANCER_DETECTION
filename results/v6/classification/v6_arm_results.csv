@@ -1,0 +1,5 @@
+Arm,Model,Accuracy,Macro-F1,ROC-AUC,PR-AUC,Malignant Recall,Specificity,Mass Macro-F1,Calc Macro-F1
+Arm A,V5 Arm-I Reference (Locked),72.27%,71.67%,0.7928,0.6556,73.93%,71.21%,68.43%,73.28%
+Arm B,V6 Arm-B (Frozen ViT Backbone),70.98%,70.64%,0.7780,0.6458,77.25%,66.97%,69.94%,69.79%
+Arm C,V6 Arm-C (Last 2 ViT Blocks Tuned - Primary Winner),71.90%,71.05%,0.7787,0.6496,70.14%,73.03%,70.04%,69.84%
+Arm D,V6 Arm-D (Last 4 ViT Blocks Tuned),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A

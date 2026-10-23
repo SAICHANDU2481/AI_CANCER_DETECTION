@@ -1,0 +1,135 @@
+{
+  "Overall": {
+    "sample_count": 541,
+    "metrics": {
+      "accuracy": 75.05,
+      "precision": 64.5,
+      "recall_sensitivity": 80.09,
+      "specificity": 71.82,
+      "f1_binary": 71.46,
+      "macro_f1": 74.65,
+      "roc_auc": 0.8303,
+      "pr_auc": 0.7456,
+      "brier_score": 0.1747,
+      "ece": 10.12,
+      "tn": 237,
+      "fp": 93,
+      "fn": 42,
+      "tp": 169
+    }
+  },
+  "Type: Mass": {
+    "sample_count": 244,
+    "metrics": {
+      "accuracy": 75.41,
+      "precision": 68.79,
+      "recall_sensitivity": 85.84,
+      "specificity": 66.41,
+      "f1_binary": 76.38,
+      "macro_f1": 75.37,
+      "roc_auc": 0.8308,
+      "pr_auc": 0.8184,
+      "brier_score": 0.1775,
+      "ece": 12.4,
+      "tn": 87,
+      "fp": 44,
+      "fn": 16,
+      "tp": 97
+    }
+  },
+  "Type: Calcification": {
+    "sample_count": 297,
+    "metrics": {
+      "accuracy": 74.75,
+      "precision": 59.5,
+      "recall_sensitivity": 73.47,
+      "specificity": 75.38,
+      "f1_binary": 65.75,
+      "macro_f1": 72.88,
+      "roc_auc": 0.822,
+      "pr_auc": 0.6626,
+      "brier_score": 0.1724,
+      "ece": 9.6,
+      "tn": 150,
+      "fp": 49,
+      "fn": 26,
+      "tp": 72
+    }
+  },
+  "View: CC": {
+    "sample_count": 255,
+    "metrics": {
+      "accuracy": 75.29,
+      "precision": 64.23,
+      "recall_sensitivity": 80.61,
+      "specificity": 71.97,
+      "f1_binary": 71.49,
+      "macro_f1": 74.85,
+      "roc_auc": 0.8238,
+      "pr_auc": 0.7378,
+      "brier_score": 0.1793,
+      "ece": 12.78,
+      "tn": 113,
+      "fp": 44,
+      "fn": 19,
+      "tp": 79
+    }
+  },
+  "View: MLO": {
+    "sample_count": 286,
+    "metrics": {
+      "accuracy": 74.83,
+      "precision": 64.75,
+      "recall_sensitivity": 79.65,
+      "specificity": 71.68,
+      "f1_binary": 71.43,
+      "macro_f1": 74.46,
+      "roc_auc": 0.8365,
+      "pr_auc": 0.7559,
+      "brier_score": 0.1705,
+      "ece": 9.21,
+      "tn": 124,
+      "fp": 49,
+      "fn": 23,
+      "tp": 90
+    }
+  },
+  "Pathology: Benign": {
+    "sample_count": 209,
+    "metrics": {
+      "accuracy": 59.33,
+      "precision": 0.0,
+      "recall_sensitivity": 0.0,
+      "specificity": 59.33,
+      "f1_binary": 0.0,
+      "macro_f1": 37.24,
+      "roc_auc": NaN,
+      "pr_auc": 0.0,
+      "brier_score": 0.2604,
+      "ece": 42.83,
+      "tn": 124,
+      "fp": 85,
+      "fn": 0,
+      "tp": 0
+    }
+  },
+  "Pathology: Malignant": {
+    "sample_count": 211,
+    "metrics": {
+      "accuracy": 80.09,
+      "precision": 100.0,
+      "recall_sensitivity": 80.09,
+      "specificity": 0.0,
+      "f1_binary": 88.95,
+      "macro_f1": 44.47,
+      "roc_auc": NaN,
+      "pr_auc": 1.0,
+      "brier_score": 0.1474,
+      "ece": 30.27,
+      "tn": 0,
+      "fp": 0,
+      "fn": 42,
+      "tp": 169
+    }
+  }
+}

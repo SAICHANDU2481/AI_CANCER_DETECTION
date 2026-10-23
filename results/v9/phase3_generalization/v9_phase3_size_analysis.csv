@@ -1,0 +1,4 @@
+Size Category,Sample Count,Accuracy (%),Macro-F1 (%),ROC-AUC,Sensitivity (%),Specificity (%)
+"Small (<1,000 px)",271,76.01,74.4,0.8418,75.0,76.54
+"Medium (1,000 - 5,000 px)",213,74.65,74.44,0.8115,83.96,65.42
+"Large (>5,000 px)",57,71.93,68.42,0.8129,84.62,68.18

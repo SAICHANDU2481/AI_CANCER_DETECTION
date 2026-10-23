@@ -1,0 +1,15 @@
+{
+  "timestamp": 1790329887.7100189,
+  "train_records": 2501,
+  "val_records": 541,
+  "train_patients": 1096,
+  "val_patients": 235,
+  "patient_overlap": 0,
+  "test_reads": 0,
+  "v5_cls_md5": "ec80689a43a906f89a15d7148cf7b05e",
+  "v5_seg_md5": "91e29973585fb12e066d75e07117b821",
+  "v5_protected": true,
+  "phase2_pilot_checkpoints_verified": 7,
+  "device": "NVIDIA GeForce RTX 2050",
+  "preflight_status": "PASSED"
+}

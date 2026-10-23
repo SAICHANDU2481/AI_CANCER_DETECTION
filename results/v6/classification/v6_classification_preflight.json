@@ -1,0 +1,64 @@
+{
+  "timestamp": 1790456075.4061515,
+  "date_str": "2026-09-27 02:24:35",
+  "train_records": 2501,
+  "val_records": 541,
+  "train_patients": 1096,
+  "val_patients": 235,
+  "patient_overlap": 0,
+  "test_reads": 0,
+  "test_predictions": 0,
+  "test_masks": 0,
+  "test_directory_exists": false,
+  "v5_seg_md5": "91e29973585fb12e066d75e07117b821",
+  "v5_cls_md5": "ec80689a43a906f89a15d7148cf7b05e",
+  "v6_seg_best_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+  "v5_protected": true,
+  "phase2_pilot_checkpoints": {
+    "arm_a": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\pilot\\ukan_v6_pilot_arm_a.pth",
+      "exists": true,
+      "size_bytes": 33082830,
+      "md5": "4406ab0831ac454f15871d2f1df5dfaa"
+    },
+    "arm_b": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\pilot\\ukan_v6_pilot_arm_b.pth",
+      "exists": true,
+      "size_bytes": 30406798,
+      "md5": "cc62cff1b6178d6c5ebb776dfb616b18"
+    },
+    "arm_c": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\pilot\\ukan_v6_pilot_arm_c.pth",
+      "exists": true,
+      "size_bytes": 30408886,
+      "md5": "e3282c58e6462166305d90abef1e3d43"
+    },
+    "arm_d": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\pilot\\ukan_v6_pilot_arm_d.pth",
+      "exists": true,
+      "size_bytes": 30406798,
+      "md5": "c81f0e945d021524068d6d67d30648ef"
+    },
+    "arm_e": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\pilot\\ukan_v6_pilot_arm_e.pth",
+      "exists": true,
+      "size_bytes": 30462274,
+      "md5": "b5531cfb4670654e453102f0d2dfe70b"
+    },
+    "arm_f": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\pilot\\ukan_v6_pilot_arm_f.pth",
+      "exists": true,
+      "size_bytes": 30464426,
+      "md5": "e4ae097060469165d3a398b369d20bdc"
+    },
+    "arm_g": {
+      "path": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\models\\v6\\segmentation\\pilot\\ukan_v6_pilot_arm_g.pth",
+      "exists": true,
+      "size_bytes": 30464426,
+      "md5": "f11b04c2bc1a41b029b448e52ebaa75f"
+    }
+  },
+  "device": "NVIDIA GeForce RTX 2050",
+  "total_vram_mb": 4095.5,
+  "preflight_status": "PASSED"
+}

@@ -1,0 +1,67 @@
+{
+  "manifest_version": "1.0.0",
+  "experiment_name": "V4-A Final Locked Test Evaluation",
+  "timestamp": "2026-09-21 22:23:20",
+  "evaluation_status": "COMPLETED_AND_LOCKED",
+  "model_architecture": "MultiScaleViTV4",
+  "scales_used": [
+    "local",
+    "medium",
+    "large",
+    "context"
+  ],
+  "quality_vector_enabled": false,
+  "dynamic_gating_enabled": false,
+  "checkpoint_path": "models/v4/vit_v4_best.pth",
+  "checkpoint_md5": "d016fdc756758658e03d43f02fd4482c",
+  "segmentation_model": {
+    "name": "MultiScaleUKAN (V2-B)",
+    "checkpoint_path": "models/v2b/segmentation/ukan_v2b_best.pth",
+    "md5_checksum": "a9a18b540cfd23114313b3e6d4276595"
+  },
+  "test_cohort": {
+    "csv_path": "data/processed/test.csv",
+    "total_scans": 525,
+    "unique_patients": 235,
+    "benign_scans": 310,
+    "malignant_scans": 215,
+    "patient_isolation_status": "VERIFIED_ZERO_LEAKAGE"
+  },
+  "final_test_metrics": {
+    "accuracy_pct": 63.42857142857142,
+    "accuracy_95ci": [
+      0.5942857142857143,
+      0.6742857142857143
+    ],
+    "macro_f1_pct": 61.71725458025704,
+    "macro_f1_95ci": [
+      0.5750746830409165,
+      0.6583106790205587
+    ],
+    "binary_f1_pct": 53.62318840579711,
+    "roc_auc": 0.6724981245311328,
+    "roc_auc_95ci": [
+      0.630210546506852,
+      0.7175546675612339
+    ],
+    "pr_auc": 0.6030855741223995,
+    "malignant_recall_pct": 51.627906976744185,
+    "specificity_pct": 71.61290322580646,
+    "precision_pct": 55.778894472361806,
+    "confusion_matrix": {
+      "tp": 111,
+      "tn": 222,
+      "fp": 88,
+      "fn": 104
+    }
+  },
+  "output_files_checksums": {
+    "v4_test_predictions.csv": "9e0df38bb29587998c9ee9b7802378f3",
+    "v4_test_metrics.json": "e9c775fe8c6e0ebb49113df924c40e72",
+    "v4_test_error_analysis.csv": "3c775b3fc2af4bf1c060abc6d5793a15",
+    "v4_test_subgroup_metrics.json": "4ab035d1d52c2e6036db59f2dfc05253",
+    "v4_test_confusion_matrix.png": "2a23d2fc7e7a8b3dccdeb122332644d9",
+    "v4_test_roc_curve.png": "341e02fc6560c060f5aa7f5d67aa781d",
+    "v4_test_pr_curve.png": "9cce857e5c3cf492451548f3d6a60990"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "configuration": "K=3 Frozen Backbone",
+    "k_val": 3,
+    "unfrozen_blocks": 0,
+    "batch_size": 8,
+    "peak_allocated_vram_mb": 521.6,
+    "peak_reserved_vram_mb": 596.0,
+    "step_latency_ms": 2587.8,
+    "safety_status": "SUPPORTED_SAFE"
+  },
+  {
+    "configuration": "K=3 Last 2 Blocks",
+    "k_val": 3,
+    "unfrozen_blocks": 2,
+    "batch_size": 8,
+    "peak_allocated_vram_mb": 1766.1,
+    "peak_reserved_vram_mb": 1910.0,
+    "step_latency_ms": 898.4,
+    "safety_status": "SUPPORTED_SAFE"
+  },
+  {
+    "configuration": "K=5 Last 2 Blocks",
+    "k_val": 5,
+    "unfrozen_blocks": 2,
+    "batch_size": 8,
+    "peak_allocated_vram_mb": 2618.9,
+    "peak_reserved_vram_mb": 2818.0,
+    "step_latency_ms": 1379.8,
+    "safety_status": "SUPPORTED_SAFE"
+  },
+  {
+    "configuration": "K=3 Last 4 Blocks",
+    "k_val": 3,
+    "unfrozen_blocks": 4,
+    "batch_size": 8,
+    "peak_allocated_vram_mb": 3073.5,
+    "peak_reserved_vram_mb": 3302.0,
+    "step_latency_ms": 1236.2,
+    "safety_status": "SUPPORTED_SAFE"
+  }
+]

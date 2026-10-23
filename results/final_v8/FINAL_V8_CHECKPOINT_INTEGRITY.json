@@ -1,0 +1,45 @@
+{
+  "verification_timestamp": "2026-10-04T00:00:48+05:30",
+  "status": "PASS_CRYPTOGRAPHIC_INTEGRITY",
+  "final_reported_model": "V8 (Arm F: Dual-Resolution Proposals + ViT 4-Block Tuned)",
+  "checkpoints": [
+    {
+      "model_type": "Classification ViT Backbone (Arm F)",
+      "original_path": "models/v8/classification/vit_v8_phase2_arm_f_best.pth",
+      "frozen_copy_path": "models/final_v8/vit_v8_final.pth",
+      "expected_md5": "882313ce67adca01bffa699a180719c4",
+      "actual_original_md5": "882313ce67adca01bffa699a180719c4",
+      "actual_copy_md5": "882313ce67adca01bffa699a180719c4",
+      "sha256": "7aa49ef7ff2f94e72cc2f27361af89ba0cd04dae00b333f41d8c50a37a1c64c7",
+      "file_size_bytes": 366913760,
+      "md5_match": true,
+      "sha256_match": true,
+      "integrity": "PASS"
+    },
+    {
+      "model_type": "Upstream U-KAN Lesion Segmentor (Arm G)",
+      "original_path": "models/v6/segmentation/final/ukan_v6_arm_g_best.pth",
+      "frozen_copy_path": "models/final_v8/ukan_v6_final.pth",
+      "expected_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "actual_original_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "actual_copy_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "sha256": "f2cd9b1208f4b77416640201143539d6d08b1ff03cb175e1502eb73b8431769d",
+      "file_size_bytes": 91242039,
+      "md5_match": true,
+      "sha256_match": true,
+      "integrity": "PASS"
+    }
+  ],
+  "reference_checkpoints": {
+    "v9_phase2_arm_g_best": {
+      "path": "models/v9/phase2/v9_phase2_arm_g_best.pth",
+      "md5": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+      "status": "PRESERVED_EXPERIMENTAL_EXTENSION"
+    },
+    "v6_vit_arm_c_best": {
+      "path": "models/v6/classification/vit_v6_arm_c_best.pth",
+      "md5": "508250cfc1c07af1ea7d81cc2e5a7418",
+      "status": "PRESERVED_HISTORICAL_BENCHMARK"
+    }
+  }
+}

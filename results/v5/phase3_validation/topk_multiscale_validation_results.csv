@@ -1,0 +1,7 @@
+Config_ID,Configuration,K_Proposals,MultiScale,Val_Accuracy_%,Val_Macro_F1_%,Val_Binary_F1_%,Val_ROC_AUC,Val_PR_AUC,Malignant_Recall_%,Specificity_%,Malignant_Precision_%,TP,TN,FP,FN,Machine_ROIs,Machine_ROI_Rate_%,Fallback_ROIs,Fallback_ROI_Rate_%,Mean_ROI_Dice
+A,"Single Best ROI (K=1, Local Only)",1,No (Local only),59.33,57.34,48.11,0.5963,0.4693,48.34,66.36,47.89,102,219,111,109,415,76.71,126,23.29,0.178
+B,"Top-3 ROI Aggregation (K=3, Local Only)",3,No (Local only),59.15,57.18,48.0,0.6242,0.478,48.34,66.06,47.66,102,218,112,109,415,76.71,126,23.29,0.178
+C,"Top-5 ROI Aggregation (K=5, Local Only)",5,No (Local only),60.63,59.12,51.26,0.6277,0.4862,53.08,65.45,49.56,112,216,114,99,415,76.71,126,23.29,0.178
+D,"Multi-Scale Single ROI (K=1, 4 Scales)",1,Yes (4 scales),61.92,58.71,47.18,0.6767,0.5536,43.6,73.64,51.4,92,243,87,119,415,76.71,126,23.29,0.178
+E,"Top-3 + Multi-Scale (K=3, 4 Scales)",3,Yes (4 scales),65.62,61.7,49.46,0.7181,0.5669,43.13,80.0,57.96,91,264,66,120,415,76.71,126,23.29,0.178
+F,"Top-5 + Multi-Scale (K=5, 4 Scales)",5,Yes (4 scales),64.88,60.23,46.63,0.7174,0.5644,39.34,81.21,57.24,83,268,62,128,415,76.71,126,23.29,0.178

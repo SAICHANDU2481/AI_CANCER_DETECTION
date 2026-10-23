@@ -1,0 +1,16 @@
+{
+  "accuracy": 75.05,
+  "precision": 64.5,
+  "recall_sensitivity": 80.09,
+  "specificity": 71.82,
+  "f1_binary": 71.46,
+  "macro_f1": 74.65,
+  "roc_auc": 0.8303,
+  "pr_auc": 0.7456,
+  "brier_score": 0.1747,
+  "ece": 10.12,
+  "tn": 237,
+  "fp": 93,
+  "fn": 42,
+  "tp": 169
+}

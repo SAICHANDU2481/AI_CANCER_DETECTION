@@ -1,0 +1,502 @@
+{
+  "timestamp": "2026-10-03 13:13:14",
+  "summary": [
+    {
+      "Arm": "Arm 1 (Single-Scale 512 Baseline)",
+      "Recall@1 (IoU>=0.10)": 29.39,
+      "Recall@1 (IoU>=0.30)": 14.97,
+      "Recall@1 (IoU>=0.50)": 3.51,
+      "Containment@1": 36.04,
+      "Recall@3 (IoU>=0.10)": 41.96,
+      "Recall@3 (IoU>=0.30)": 19.04,
+      "Recall@3 (IoU>=0.50)": 4.07,
+      "Containment@3": 58.41,
+      "Recall@5 (IoU>=0.10)": 46.77,
+      "Recall@5 (IoU>=0.30)": 20.89,
+      "Recall@5 (IoU>=0.50)": 4.25,
+      "Containment@5": 72.27,
+      "Mean Best IoU": 0.1558,
+      "Median Best IoU": 0.0859,
+      "Mean Proposal Area (px)": 14470.7,
+      "Zero-Proposal Rate (%)": 45.29
+    },
+    {
+      "Arm": "Arm 2 (Single-Scale 768 Baseline)",
+      "Recall@1 (IoU>=0.10)": 31.42,
+      "Recall@1 (IoU>=0.30)": 12.2,
+      "Recall@1 (IoU>=0.50)": 3.33,
+      "Containment@1": 40.48,
+      "Recall@3 (IoU>=0.10)": 46.21,
+      "Recall@3 (IoU>=0.30)": 20.15,
+      "Recall@3 (IoU>=0.50)": 5.91,
+      "Containment@3": 58.04,
+      "Recall@5 (IoU>=0.10)": 51.76,
+      "Recall@5 (IoU>=0.30)": 22.92,
+      "Recall@5 (IoU>=0.50)": 7.02,
+      "Containment@5": 66.54,
+      "Mean Best IoU": 0.1722,
+      "Median Best IoU": 0.1154,
+      "Mean Proposal Area (px)": 9833.5,
+      "Zero-Proposal Rate (%)": 4.25
+    },
+    {
+      "Arm": "Arm 3 (Multi-Threshold 512 CC)",
+      "Recall@1 (IoU>=0.10)": 29.94,
+      "Recall@1 (IoU>=0.30)": 12.94,
+      "Recall@1 (IoU>=0.50)": 3.51,
+      "Containment@1": 36.41,
+      "Recall@3 (IoU>=0.10)": 38.26,
+      "Recall@3 (IoU>=0.30)": 15.53,
+      "Recall@3 (IoU>=0.50)": 3.88,
+      "Containment@3": 50.65,
+      "Recall@5 (IoU>=0.10)": 43.44,
+      "Recall@5 (IoU>=0.30)": 17.56,
+      "Recall@5 (IoU>=0.50)": 4.62,
+      "Containment@5": 63.77,
+      "Mean Best IoU": 0.1417,
+      "Median Best IoU": 0.0698,
+      "Mean Proposal Area (px)": 12234.5,
+      "Zero-Proposal Rate (%)": 42.88
+    },
+    {
+      "Arm": "Arm 4 (Multi-Scale 512+768 Naive NMS)",
+      "Recall@1 (IoU>=0.10)": 31.42,
+      "Recall@1 (IoU>=0.30)": 13.49,
+      "Recall@1 (IoU>=0.50)": 3.14,
+      "Containment@1": 40.11,
+      "Recall@3 (IoU>=0.10)": 48.61,
+      "Recall@3 (IoU>=0.30)": 23.84,
+      "Recall@3 (IoU>=0.50)": 6.28,
+      "Containment@3": 57.12,
+      "Recall@5 (IoU>=0.10)": 54.16,
+      "Recall@5 (IoU>=0.30)": 28.28,
+      "Recall@5 (IoU>=0.50)": 7.58,
+      "Containment@5": 64.33,
+      "Mean Best IoU": 0.1892,
+      "Median Best IoU": 0.1379,
+      "Mean Proposal Area (px)": 9052.9,
+      "Zero-Proposal Rate (%)": 4.25
+    },
+    {
+      "Arm": "Arm 5 (Calcification Pathway Alone)",
+      "Recall@1 (IoU>=0.10)": 4.99,
+      "Recall@1 (IoU>=0.30)": 2.03,
+      "Recall@1 (IoU>=0.50)": 0.55,
+      "Containment@1": 16.64,
+      "Recall@3 (IoU>=0.10)": 13.86,
+      "Recall@3 (IoU>=0.30)": 3.33,
+      "Recall@3 (IoU>=0.50)": 1.11,
+      "Containment@3": 42.33,
+      "Recall@5 (IoU>=0.10)": 20.7,
+      "Recall@5 (IoU>=0.30)": 5.55,
+      "Recall@5 (IoU>=0.50)": 1.29,
+      "Containment@5": 59.89,
+      "Mean Best IoU": 0.0665,
+      "Median Best IoU": 0.0153,
+      "Mean Proposal Area (px)": 20608.0,
+      "Zero-Proposal Rate (%)": 0.0
+    },
+    {
+      "Arm": "Arm 6 (High-Res Detail Pathway Alone)",
+      "Recall@1 (IoU>=0.10)": 5.73,
+      "Recall@1 (IoU>=0.30)": 1.66,
+      "Recall@1 (IoU>=0.50)": 0.18,
+      "Containment@1": 26.62,
+      "Recall@3 (IoU>=0.10)": 14.42,
+      "Recall@3 (IoU>=0.30)": 4.81,
+      "Recall@3 (IoU>=0.50)": 0.55,
+      "Containment@3": 57.12,
+      "Recall@5 (IoU>=0.10)": 21.63,
+      "Recall@5 (IoU>=0.30)": 6.65,
+      "Recall@5 (IoU>=0.50)": 0.74,
+      "Containment@5": 68.58,
+      "Mean Best IoU": 0.0699,
+      "Median Best IoU": 0.0131,
+      "Mean Proposal Area (px)": 28032.6,
+      "Zero-Proposal Rate (%)": 0.0
+    },
+    {
+      "Arm": "Arm 7 (Multi-Scale Multi-Threshold + Breast)",
+      "Recall@1 (IoU>=0.10)": 30.68,
+      "Recall@1 (IoU>=0.30)": 11.09,
+      "Recall@1 (IoU>=0.50)": 2.59,
+      "Containment@1": 39.74,
+      "Recall@3 (IoU>=0.10)": 48.06,
+      "Recall@3 (IoU>=0.30)": 19.22,
+      "Recall@3 (IoU>=0.50)": 4.81,
+      "Containment@3": 54.9,
+      "Recall@5 (IoU>=0.10)": 53.05,
+      "Recall@5 (IoU>=0.30)": 22.92,
+      "Recall@5 (IoU>=0.50)": 6.1,
+      "Containment@5": 59.89,
+      "Mean Best IoU": 0.1704,
+      "Median Best IoU": 0.1238,
+      "Mean Proposal Area (px)": 7714.6,
+      "Zero-Proposal Rate (%)": 4.25
+    },
+    {
+      "Arm": "Arm 8 (Multi-Scale + Calc + Detail Naive)",
+      "Recall@1 (IoU>=0.10)": 23.11,
+      "Recall@1 (IoU>=0.30)": 7.76,
+      "Recall@1 (IoU>=0.50)": 2.4,
+      "Containment@1": 36.23,
+      "Recall@3 (IoU>=0.10)": 42.7,
+      "Recall@3 (IoU>=0.30)": 17.56,
+      "Recall@3 (IoU>=0.50)": 4.81,
+      "Containment@3": 59.52,
+      "Recall@5 (IoU>=0.10)": 51.2,
+      "Recall@5 (IoU>=0.30)": 21.26,
+      "Recall@5 (IoU>=0.50)": 6.1,
+      "Containment@5": 72.09,
+      "Mean Best IoU": 0.1655,
+      "Median Best IoU": 0.108,
+      "Mean Proposal Area (px)": 19673.9,
+      "Zero-Proposal Rate (%)": 0.0
+    },
+    {
+      "Arm": "Arm 9 (V9 Full Multi-Source + Ranking)",
+      "Recall@1 (IoU>=0.10)": 31.42,
+      "Recall@1 (IoU>=0.30)": 13.68,
+      "Recall@1 (IoU>=0.50)": 4.44,
+      "Containment@1": 42.7,
+      "Recall@3 (IoU>=0.10)": 42.33,
+      "Recall@3 (IoU>=0.30)": 20.33,
+      "Recall@3 (IoU>=0.50)": 5.73,
+      "Containment@3": 70.61,
+      "Recall@5 (IoU>=0.10)": 48.98,
+      "Recall@5 (IoU>=0.30)": 23.48,
+      "Recall@5 (IoU>=0.50)": 6.84,
+      "Containment@5": 84.47,
+      "Mean Best IoU": 0.1708,
+      "Median Best IoU": 0.0935,
+      "Mean Proposal Area (px)": 27903.9,
+      "Zero-Proposal Rate (%)": 0.0
+    },
+    {
+      "Arm": "Arm 10 (Random Baseline)",
+      "Recall@1 (IoU>=0.10)": 3.88,
+      "Recall@1 (IoU>=0.30)": 0.55,
+      "Recall@1 (IoU>=0.50)": 0.0,
+      "Containment@1": 4.99,
+      "Recall@3 (IoU>=0.10)": 11.28,
+      "Recall@3 (IoU>=0.30)": 1.29,
+      "Recall@3 (IoU>=0.50)": 0.37,
+      "Containment@3": 16.08,
+      "Recall@5 (IoU>=0.10)": 17.56,
+      "Recall@5 (IoU>=0.30)": 2.03,
+      "Recall@5 (IoU>=0.50)": 0.74,
+      "Containment@5": 24.03,
+      "Mean Best IoU": 0.0472,
+      "Median Best IoU": 0.0,
+      "Mean Proposal Area (px)": 10655.5,
+      "Zero-Proposal Rate (%)": 0.0
+    },
+    {
+      "Arm": "Arm 11 (Fixed Grid Baseline)",
+      "Recall@1 (IoU>=0.10)": 7.39,
+      "Recall@1 (IoU>=0.30)": 1.66,
+      "Recall@1 (IoU>=0.50)": 0.55,
+      "Containment@1": 56.93,
+      "Recall@3 (IoU>=0.10)": 11.09,
+      "Recall@3 (IoU>=0.30)": 2.59,
+      "Recall@3 (IoU>=0.50)": 0.74,
+      "Containment@3": 74.12,
+      "Recall@5 (IoU>=0.10)": 15.16,
+      "Recall@5 (IoU>=0.30)": 3.51,
+      "Recall@5 (IoU>=0.50)": 0.92,
+      "Containment@5": 94.64,
+      "Mean Best IoU": 0.0576,
+      "Median Best IoU": 0.0243,
+      "Mean Proposal Area (px)": 53248.0,
+      "Zero-Proposal Rate (%)": 0.0
+    }
+  ],
+  "detailed_metrics": {
+    "Arm 1 (Single-Scale 512 Baseline)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 29.390018484288355,
+          "recall_iou30": 14.972273567467653,
+          "recall_iou50": 3.512014787430684,
+          "containment": 36.04436229205176
+        },
+        "k3": {
+          "recall_iou10": 41.95933456561922,
+          "recall_iou30": 19.038817005545287,
+          "recall_iou50": 4.066543438077634,
+          "containment": 58.41035120147874
+        },
+        "k5": {
+          "recall_iou10": 46.76524953789279,
+          "recall_iou30": 20.88724584103512,
+          "recall_iou50": 4.251386321626617,
+          "containment": 72.2735674676525
+        }
+      },
+      "mean_best_iou": 0.15584588706659108,
+      "median_best_iou": 0.08592049490205064,
+      "mean_proposal_area": 14470.692051756008,
+      "zero_proposal_rate_pct": 45.28650646950093
+    },
+    "Arm 2 (Single-Scale 768 Baseline)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 31.42329020332717,
+          "recall_iou30": 12.199630314232902,
+          "recall_iou50": 3.3271719038817005,
+          "containment": 40.48059149722736
+        },
+        "k3": {
+          "recall_iou10": 46.21072088724584,
+          "recall_iou30": 20.147874306839185,
+          "recall_iou50": 5.914972273567468,
+          "containment": 58.04066543438078
+        },
+        "k5": {
+          "recall_iou10": 51.75600739371534,
+          "recall_iou30": 22.920517560073936,
+          "recall_iou50": 7.024029574861368,
+          "containment": 66.54343807763401
+        }
+      },
+      "mean_best_iou": 0.17218979726181893,
+      "median_best_iou": 0.1153564453125,
+      "mean_proposal_area": 9833.502402957487,
+      "zero_proposal_rate_pct": 4.251386321626617
+    },
+    "Arm 3 (Multi-Threshold 512 CC)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 29.944547134935306,
+          "recall_iou30": 12.939001848428836,
+          "recall_iou50": 3.512014787430684,
+          "containment": 36.41404805914972
+        },
+        "k3": {
+          "recall_iou10": 38.262476894639555,
+          "recall_iou30": 15.526802218114602,
+          "recall_iou50": 3.8817005545286505,
+          "containment": 50.64695009242144
+        },
+        "k5": {
+          "recall_iou10": 43.438077634011094,
+          "recall_iou30": 17.56007393715342,
+          "recall_iou50": 4.621072088724584,
+          "containment": 63.77079482439926
+        }
+      },
+      "mean_best_iou": 0.1416597429082379,
+      "median_best_iou": 0.06975018550581251,
+      "mean_proposal_area": 12234.470979667283,
+      "zero_proposal_rate_pct": 42.883548983364136
+    },
+    "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 31.42329020332717,
+          "recall_iou30": 13.493530499075785,
+          "recall_iou50": 3.1423290203327174,
+          "containment": 40.110905730129396
+        },
+        "k3": {
+          "recall_iou10": 48.613678373382626,
+          "recall_iou30": 23.844731977818853,
+          "recall_iou50": 6.284658040665435,
+          "containment": 57.116451016635864
+        },
+        "k5": {
+          "recall_iou10": 54.15896487985212,
+          "recall_iou30": 28.280961182994456,
+          "recall_iou50": 7.578558225508318,
+          "containment": 64.32532347504622
+        }
+      },
+      "mean_best_iou": 0.18916406204741631,
+      "median_best_iou": 0.1378640776699029,
+      "mean_proposal_area": 9052.892791127542,
+      "zero_proposal_rate_pct": 4.251386321626617
+    },
+    "Arm 5 (Calcification Pathway Alone)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 4.990757855822551,
+          "recall_iou30": 2.033271719038817,
+          "recall_iou50": 0.5545286506469501,
+          "containment": 16.635859519408502
+        },
+        "k3": {
+          "recall_iou10": 13.863216266173753,
+          "recall_iou30": 3.3271719038817005,
+          "recall_iou50": 1.1090573012939002,
+          "containment": 42.329020332717185
+        },
+        "k5": {
+          "recall_iou10": 20.70240295748614,
+          "recall_iou30": 5.545286506469501,
+          "recall_iou50": 1.2939001848428837,
+          "containment": 59.88909426987061
+        }
+      },
+      "mean_best_iou": 0.06646703915057038,
+      "median_best_iou": 0.015258777384482924,
+      "mean_proposal_area": 20608.01811460259,
+      "zero_proposal_rate_pct": 0.0
+    },
+    "Arm 6 (High-Res Detail Pathway Alone)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 5.730129390018484,
+          "recall_iou30": 1.6635859519408502,
+          "recall_iou50": 0.18484288354898337,
+          "containment": 26.617375231053604
+        },
+        "k3": {
+          "recall_iou10": 14.417744916820702,
+          "recall_iou30": 4.805914972273567,
+          "recall_iou50": 0.5545286506469501,
+          "containment": 57.116451016635864
+        },
+        "k5": {
+          "recall_iou10": 21.626617375231053,
+          "recall_iou30": 6.654343807763401,
+          "recall_iou50": 0.7393715341959335,
+          "containment": 68.57670979667283
+        }
+      },
+      "mean_best_iou": 0.06990986419829003,
+      "median_best_iou": 0.01312910284463895,
+      "mean_proposal_area": 28032.57227356747,
+      "zero_proposal_rate_pct": 0.0
+    },
+    "Arm 7 (Multi-Scale Multi-Threshold + Breast)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 30.683918669131238,
+          "recall_iou30": 11.090573012939002,
+          "recall_iou50": 2.5878003696857674,
+          "containment": 39.74121996303142
+        },
+        "k3": {
+          "recall_iou10": 48.059149722735675,
+          "recall_iou30": 19.223659889094268,
+          "recall_iou50": 4.805914972273567,
+          "containment": 54.89833641404805
+        },
+        "k5": {
+          "recall_iou10": 53.04990757855823,
+          "recall_iou30": 22.920517560073936,
+          "recall_iou50": 6.099815157116451,
+          "containment": 59.88909426987061
+        }
+      },
+      "mean_best_iou": 0.1704088592313052,
+      "median_best_iou": 0.12380952380952381,
+      "mean_proposal_area": 7714.591497227358,
+      "zero_proposal_rate_pct": 4.251386321626617
+    },
+    "Arm 8 (Multi-Scale + Calc + Detail Naive)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 23.10536044362292,
+          "recall_iou30": 7.763401109057301,
+          "recall_iou50": 2.4029574861367835,
+          "containment": 36.22920517560074
+        },
+        "k3": {
+          "recall_iou10": 42.69870609981516,
+          "recall_iou30": 17.56007393715342,
+          "recall_iou50": 4.805914972273567,
+          "containment": 59.51940850277264
+        },
+        "k5": {
+          "recall_iou10": 51.20147874306839,
+          "recall_iou30": 21.256931608133087,
+          "recall_iou50": 6.099815157116451,
+          "containment": 72.08872458410352
+        }
+      },
+      "mean_best_iou": 0.1655416972523696,
+      "median_best_iou": 0.10804044294655754,
+      "mean_proposal_area": 19673.879482439927,
+      "zero_proposal_rate_pct": 0.0
+    },
+    "Arm 9 (V9 Full Multi-Source + Ranking)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 31.42329020332717,
+          "recall_iou30": 13.67837338262477,
+          "recall_iou50": 4.436229205175601,
+          "containment": 42.69870609981516
+        },
+        "k3": {
+          "recall_iou10": 42.329020332717185,
+          "recall_iou30": 20.33271719038817,
+          "recall_iou50": 5.730129390018484,
+          "containment": 70.60998151571165
+        },
+        "k5": {
+          "recall_iou10": 48.98336414048059,
+          "recall_iou30": 23.475046210720887,
+          "recall_iou50": 6.839186691312385,
+          "containment": 84.4731977818854
+        }
+      },
+      "mean_best_iou": 0.17084304981586038,
+      "median_best_iou": 0.09346114344402602,
+      "mean_proposal_area": 27903.888724584103,
+      "zero_proposal_rate_pct": 0.0
+    },
+    "Arm 10 (Random Baseline)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 3.8817005545286505,
+          "recall_iou30": 0.5545286506469501,
+          "recall_iou50": 0.0,
+          "containment": 4.990757855822551
+        },
+        "k3": {
+          "recall_iou10": 11.275415896487985,
+          "recall_iou30": 1.2939001848428837,
+          "recall_iou50": 0.36968576709796674,
+          "containment": 16.081330868761555
+        },
+        "k5": {
+          "recall_iou10": 17.56007393715342,
+          "recall_iou30": 2.033271719038817,
+          "recall_iou50": 0.7393715341959335,
+          "containment": 24.029574861367838
+        }
+      },
+      "mean_best_iou": 0.04723061198226899,
+      "median_best_iou": 0.0,
+      "mean_proposal_area": 10655.519778188538,
+      "zero_proposal_rate_pct": 0.0
+    },
+    "Arm 11 (Fixed Grid Baseline)": {
+      "metrics_by_k": {
+        "k1": {
+          "recall_iou10": 7.393715341959335,
+          "recall_iou30": 1.6635859519408502,
+          "recall_iou50": 0.5545286506469501,
+          "containment": 56.931608133086876
+        },
+        "k3": {
+          "recall_iou10": 11.090573012939002,
+          "recall_iou30": 2.5878003696857674,
+          "recall_iou50": 0.7393715341959335,
+          "containment": 74.12199630314234
+        },
+        "k5": {
+          "recall_iou10": 15.157116451016636,
+          "recall_iou30": 3.512014787430684,
+          "recall_iou50": 0.9242144177449169,
+          "containment": 94.63955637707949
+        }
+      },
+      "mean_best_iou": 0.05760557051039866,
+      "median_best_iou": 0.024274553571428572,
+      "mean_proposal_area": 53248.0,
+      "zero_proposal_rate_pct": 0.0
+    }
+  }
+}

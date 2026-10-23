@@ -1,0 +1,30 @@
+{
+  "Arm A (Single Top-1 Local ROI)": {
+    "brier_score": 0.2082,
+    "ece_pct": 9.01
+  },
+  "Arm B (K=3 Proposals + Frozen ViT)": {
+    "brier_score": 0.2007,
+    "ece_pct": 9.89
+  },
+  "Arm C (K=5 Proposals + Frozen ViT)": {
+    "brier_score": 0.194,
+    "ece_pct": 7.55
+  },
+  "Arm D (K=5 + Candidate Attention)": {
+    "brier_score": 0.203,
+    "ece_pct": 12.55
+  },
+  "Arm E (K=5 + Attention + Full Mammo)": {
+    "brier_score": 0.1665,
+    "ece_pct": 4.46
+  },
+  "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+    "brier_score": 0.1906,
+    "ece_pct": 10.39
+  },
+  "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+    "brier_score": 0.1747,
+    "ece_pct": 10.12
+  }
+}

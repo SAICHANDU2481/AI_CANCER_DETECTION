@@ -1,0 +1,8 @@
+Arm,Best Epoch,Train Accuracy (%),Val Accuracy (%),Generalization Gap (%),Train Loss,Val Loss
+Arm A (Single Top-1 Local ROI),17,77.53,70.79,6.74,0.5003,0.6288
+Arm B (K=3 Proposals + Frozen ViT),4,65.45,72.09,-6.64,0.6318,0.607
+Arm C (K=5 Proposals + Frozen ViT),12,72.37,70.98,1.39,0.5593,0.588
+Arm D (K=5 + Candidate Attention),3,69.25,69.69,-0.44,0.5841,0.6022
+Arm E (K=5 + Attention + Full Mammo),2,70.93,75.42,-4.49,0.5797,0.5353
+Arm F (K=5 + Attention + Mammo + Calc Patch),5,87.72,75.6,12.12,0.353,0.6749
+Arm G (K=5 + Attention + Mammo + Calc + Context ROI),3,76.57,75.05,1.52,0.5189,0.5419

@@ -1,0 +1,18 @@
+{
+  "pipeline_version": "V9 Arm G",
+  "checkpoint_md5": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+  "ukan_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+  "proposals_k": 5,
+  "visual_pathways": [
+    "Candidate RoI Attention",
+    "Full Mammogram",
+    "High-Res Calcification Patch",
+    "Context RoI"
+  ],
+  "calibration_method": "Temperature Scaling (T=1.2128)",
+  "decision_threshold": 0.5,
+  "tta_enabled": false,
+  "batch_size": 16,
+  "hardware_device": "cuda (NVIDIA GeForce RTX 2050)",
+  "reproducibility": "100% Deterministic (Max prob diff = 0.00000000)"
+}

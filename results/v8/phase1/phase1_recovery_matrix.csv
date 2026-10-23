@@ -1,0 +1,9 @@
+Category,Count,Percentage
+Total Validation Cohort,541,100.0%
+V6 Arm A Hits (IoU>=0.10),251,46.40%
+V6 Arm A Misses,290,53.60%
+V6 Missed -> High-Res Recovered,75,25.86% of missed
+V6 Missed -> Calcification Recovered,30,10.34% of missed
+V6 Missed -> Combined Arm G Recovered,78,26.90% of missed
+Arm G Total Hits,275,50.83%
+Persistent Misses in Arm G,266,49.17%

@@ -1,0 +1,149 @@
+{
+  "Overall": {
+    "sample_count": 541,
+    "positive_count": 211,
+    "empirical_positive_rate": 0.39,
+    "raw": {
+      "brier_score": 0.1747,
+      "ece": 10.37,
+      "nll": 0.5187,
+      "mean_confidence": 0.4802,
+      "roc_auc": 0.8303
+    },
+    "calibrated": {
+      "brier_score": 0.1725,
+      "ece": 11.11,
+      "nll": 0.5139,
+      "mean_confidence": 0.4812,
+      "roc_auc": 0.8303
+    },
+    "delta_ece": 0.74,
+    "delta_brier": -0.0022
+  },
+  "Type: Mass": {
+    "sample_count": 244,
+    "positive_count": 113,
+    "empirical_positive_rate": 0.4631,
+    "raw": {
+      "brier_score": 0.1775,
+      "ece": 13.89,
+      "nll": 0.5192,
+      "mean_confidence": 0.5474,
+      "roc_auc": 0.8308
+    },
+    "calibrated": {
+      "brier_score": 0.1747,
+      "ece": 12.44,
+      "nll": 0.5147,
+      "mean_confidence": 0.542,
+      "roc_auc": 0.8307
+    },
+    "delta_ece": -1.45,
+    "delta_brier": -0.0028
+  },
+  "Type: Calcification": {
+    "sample_count": 297,
+    "positive_count": 98,
+    "empirical_positive_rate": 0.33,
+    "raw": {
+      "brier_score": 0.1724,
+      "ece": 10.94,
+      "nll": 0.5183,
+      "mean_confidence": 0.425,
+      "roc_auc": 0.822
+    },
+    "calibrated": {
+      "brier_score": 0.1707,
+      "ece": 12.26,
+      "nll": 0.5133,
+      "mean_confidence": 0.4316,
+      "roc_auc": 0.8221
+    },
+    "delta_ece": 1.32,
+    "delta_brier": -0.0017
+  },
+  "View: CC": {
+    "sample_count": 255,
+    "positive_count": 98,
+    "empirical_positive_rate": 0.3843,
+    "raw": {
+      "brier_score": 0.1793,
+      "ece": 12.31,
+      "nll": 0.5262,
+      "mean_confidence": 0.4724,
+      "roc_auc": 0.8239
+    },
+    "calibrated": {
+      "brier_score": 0.1758,
+      "ece": 13.78,
+      "nll": 0.5185,
+      "mean_confidence": 0.4736,
+      "roc_auc": 0.8239
+    },
+    "delta_ece": 1.47,
+    "delta_brier": -0.0035
+  },
+  "View: MLO": {
+    "sample_count": 286,
+    "positive_count": 113,
+    "empirical_positive_rate": 0.3951,
+    "raw": {
+      "brier_score": 0.1705,
+      "ece": 10.32,
+      "nll": 0.512,
+      "mean_confidence": 0.4873,
+      "roc_auc": 0.8366
+    },
+    "calibrated": {
+      "brier_score": 0.1696,
+      "ece": 10.85,
+      "nll": 0.5099,
+      "mean_confidence": 0.488,
+      "roc_auc": 0.8366
+    },
+    "delta_ece": 0.53,
+    "delta_brier": -0.0009
+  },
+  "Pathology: Benign": {
+    "sample_count": 209,
+    "positive_count": 0,
+    "empirical_positive_rate": 0.0,
+    "raw": {
+      "brier_score": 0.2604,
+      "ece": 42.83,
+      "nll": 0.7338,
+      "mean_confidence": 0.4282,
+      "roc_auc": "N/A"
+    },
+    "calibrated": {
+      "brier_score": 0.2494,
+      "ece": 43.39,
+      "nll": 0.6977,
+      "mean_confidence": 0.4338,
+      "roc_auc": "N/A"
+    },
+    "delta_ece": 0.56,
+    "delta_brier": -0.011
+  },
+  "Pathology: Malignant": {
+    "sample_count": 211,
+    "positive_count": 211,
+    "empirical_positive_rate": 1.0,
+    "raw": {
+      "brier_score": 0.1474,
+      "ece": 30.27,
+      "nll": 0.4489,
+      "mean_confidence": 0.6973,
+      "roc_auc": "N/A"
+    },
+    "calibrated": {
+      "brier_score": 0.1491,
+      "ece": 32.24,
+      "nll": 0.4577,
+      "mean_confidence": 0.6777,
+      "roc_auc": "N/A"
+    },
+    "delta_ece": 1.97,
+    "delta_brier": 0.0017
+  }
+}

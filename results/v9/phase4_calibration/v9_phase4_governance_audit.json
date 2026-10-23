@@ -1,0 +1,16 @@
+{
+  "phase": "V9 Phase 4",
+  "timestamp": "2026-10-03 21:33:08",
+  "governance_status": "PASSED",
+  "test_reads": 0,
+  "test_masks": 0,
+  "test_labels": 0,
+  "test_predictions": 0,
+  "test_metrics": 0,
+  "test_cache_absent": true,
+  "patient_leakage": 0,
+  "v9_arm_g_md5": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+  "v6_ukan_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+  "random_seed": 42,
+  "overall_assessment": "PASS"
+}

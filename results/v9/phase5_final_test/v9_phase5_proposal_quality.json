@@ -1,0 +1,50 @@
+{
+  "IoU < 0.10": {
+    "n": 131,
+    "accuracy": 70.23,
+    "precision": 49.06,
+    "sensitivity": 68.42,
+    "specificity": 70.97,
+    "f1_binary": 57.14,
+    "macro_f1": 67.17,
+    "roc_auc": 0.745,
+    "pr_auc": 0.5428,
+    "brier": 0.1933
+  },
+  "0.10 <= IoU < 0.30": {
+    "n": 131,
+    "accuracy": 55.73,
+    "precision": 46.34,
+    "sensitivity": 73.08,
+    "specificity": 44.3,
+    "f1_binary": 56.72,
+    "macro_f1": 55.7,
+    "roc_auc": 0.647,
+    "pr_auc": 0.5412,
+    "brier": 0.2559
+  },
+  "0.30 <= IoU < 0.50": {
+    "n": 131,
+    "accuracy": 66.41,
+    "precision": 61.45,
+    "sensitivity": 80.95,
+    "specificity": 52.94,
+    "f1_binary": 69.86,
+    "macro_f1": 65.97,
+    "roc_auc": 0.7109,
+    "pr_auc": 0.6818,
+    "brier": 0.2319
+  },
+  "IoU >= 0.50": {
+    "n": 132,
+    "accuracy": 59.09,
+    "precision": 54.44,
+    "sensitivity": 79.03,
+    "specificity": 41.43,
+    "f1_binary": 64.47,
+    "macro_f1": 58.13,
+    "roc_auc": 0.6611,
+    "pr_auc": 0.6541,
+    "brier": 0.2571
+  }
+}

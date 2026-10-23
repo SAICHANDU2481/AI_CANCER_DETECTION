@@ -1,0 +1,6 @@
+Arm,Best Epoch,Train Acc (%),Val Acc (%),Acc Gap (%),Train Macro-F1 (%),Val Macro-F1 (%),F1 Gap (%),Train Loss,Val Loss
+Arm B (Arm E + Frozen ViT),7,70.61,72.09,-1.48,70.5,71.81,-1.31,0.5556,0.5792
+Arm C (Arm E + Fusion Head Training),5,68.13,70.43,-2.3,68.1,70.29,-2.19,0.5802,0.5969
+Arm D (Arm E + Last 2 ViT Blocks),21,98.52,75.23,23.29,98.48,74.06,24.42,0.1484,0.822
+Arm E2 (Arm E K=5 + Last 2 ViT Blocks),4,73.41,72.09,1.32,73.2,71.59,1.61,0.5355,0.5586
+Arm F (Arm E + Last 4 ViT Blocks),14,98.48,75.97,22.51,98.44,75.36,23.08,0.1538,0.8139

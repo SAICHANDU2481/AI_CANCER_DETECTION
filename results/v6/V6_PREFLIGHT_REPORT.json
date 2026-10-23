@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-09-24 19:59:12",
+  "v5_protected": true,
+  "test_quarantine_verified": true,
+  "test_reads_count": 0,
+  "v5_checkpoint_audit": {
+    "v5_segmentation": {
+      "exists": true,
+      "md5": "91e29973585fb12e066d75e07117b821",
+      "size_bytes": 55302698
+    },
+    "v5_arm_i_classifier": {
+      "exists": true,
+      "md5": "ec80689a43a906f89a15d7148cf7b05e",
+      "size_bytes": 366927754
+    },
+    "v5_test_metrics": {
+      "exists": true,
+      "md5": "f9ddda01d8cf0344c266813b3ed850bf",
+      "size_bytes": 2278
+    },
+    "v5_ablation_summary": {
+      "exists": true,
+      "md5": "1d16296a673c7859b567760e961b8b4c",
+      "size_bytes": 4453
+    }
+  },
+  "dataset_audit": {
+    "train_records": 2501,
+    "train_patients": 1096,
+    "val_records": 541,
+    "val_patients": 235,
+    "patient_overlap": 0,
+    "train_class_dist": {
+      "0": 1470,
+      "1": 1031
+    },
+    "val_class_dist": {
+      "0": 330,
+      "1": 211
+    },
+    "train_abnormality_dist": {
+      "CALCIFICATION": 1316,
+      "MASS": 1185
+    },
+    "val_abnormality_dist": {
+      "CALCIFICATION": 297,
+      "MASS": 244
+    }
+  },
+  "hardware_audit": {
+    "cuda_available": true,
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 2050",
+    "total_vram_gb": 4.0,
+    "pytorch_version": "2.6.0+cu124"
+  },
+  "architecture_audit": {
+    "model_name": "MultiScaleUKANV6",
+    "total_params": 7576395,
+    "trainable_params": 7576395,
+    "total_params_million": 7.576
+  },
+  "memory_benchmark": {
+    "512x512_bs2": {
+      "peak_mb": 3434.9,
+      "status": "STABLE"
+    },
+    "512x512_bs4": {
+      "peak_mb": 6729.8,
+      "status": "STABLE"
+    },
+    "768x768_bs1": {
+      "peak_mb": 3855.0,
+      "status": "STABLE"
+    },
+    "768x768_bs2": {
+      "peak_mb": 7560.6,
+      "status": "STABLE"
+    }
+  },
+  "checkpoint_serialization_test": "PASSED",
+  "recommended_pilot_arms": [
+    {
+      "arm": "Arm_A",
+      "name": "V5-Compatible Baseline U-KAN",
+      "desc": "Standard U-KAN without detail branch or deep supervision"
+    },
+    {
+      "arm": "Arm_B",
+      "name": "V6 Multi-Scale U-KAN",
+      "desc": "MultiScaleDilatedBlocks (r=1,2,4) with Gated Channel Attention"
+    },
+    {
+      "arm": "Arm_C",
+      "name": "V6 + Deep Supervision",
+      "desc": "Multi-Scale U-KAN with 3-level auxiliary decoder heads (0.60/0.25/0.15)"
+    },
+    {
+      "arm": "Arm_D",
+      "name": "V6 + Small-Lesion-Aware Loss",
+      "desc": "Focal-Tversky loss with Small (<500px) sample weighting"
+    },
+    {
+      "arm": "Arm_E",
+      "name": "V6 + Dedicated Detail Branch",
+      "desc": "Direct high-resolution micro-calcification feature pathway"
+    },
+    {
+      "arm": "Arm_F",
+      "name": "V6 + Deep Supervision + Detail Branch",
+      "desc": "Combined full structural V6 architecture"
+    },
+    {
+      "arm": "Arm_G",
+      "name": "V6 Full + Calcification Focus",
+      "desc": "Full V6 with asymmetric Tversky (beta=0.75) + Boundary Loss"
+    }
+  ]
+}

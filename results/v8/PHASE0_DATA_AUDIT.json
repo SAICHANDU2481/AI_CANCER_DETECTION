@@ -1,0 +1,84 @@
+{
+  "audit_timestamp": "2026-10-01 22:49:22",
+  "governance": {
+    "test_set_status": "LOCKED_QUARANTINED",
+    "test_csv_reads": 0,
+    "test_image_reads": 0,
+    "test_mask_reads": 0,
+    "patient_leakage": 0
+  },
+  "checkpoints": {
+    "v6_ukan": {
+      "path": "models/v6/segmentation/final/ukan_v6_arm_g_best.pth",
+      "expected_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "actual_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "verified": true
+    },
+    "v6_vit": {
+      "path": "models/v6/classification/vit_v6_arm_c_best.pth",
+      "expected_md5": "508250cfc1c07af1ea7d81cc2e5a7418",
+      "actual_md5": "508250cfc1c07af1ea7d81cc2e5a7418",
+      "verified": true
+    },
+    "v5_classifier": {
+      "path": "models/v5/classification/vit_v5_arm_i_best.pth",
+      "expected_md5": "ec80689a43a906f89a15d7148cf7b05e",
+      "actual_md5": "ec80689a43a906f89a15d7148cf7b05e",
+      "verified": true
+    }
+  },
+  "hardware": {
+    "torch_version": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "device_name": "NVIDIA GeForce RTX 2050",
+    "device_count": 1,
+    "total_vram_gb": 4.0
+  },
+  "splits": {
+    "train": {
+      "scans": 2501,
+      "patients": 1096,
+      "benign_count": 1470,
+      "malignant_count": 1031,
+      "mass_count": 1185,
+      "calc_count": 1316,
+      "cc_view_count": 1167,
+      "mlo_view_count": 1334,
+      "images_resolved": 2501,
+      "masks_resolved": 2501,
+      "dimensions_sample_stats": {
+        "height_mean": 5337.32,
+        "height_min": 4384,
+        "height_max": 6916,
+        "width_mean": 3176.09,
+        "width_min": 1561,
+        "width_max": 5251
+      }
+    },
+    "val": {
+      "scans": 541,
+      "patients": 235,
+      "benign_count": 330,
+      "malignant_count": 211,
+      "mass_count": 244,
+      "calc_count": 297,
+      "cc_view_count": 255,
+      "mlo_view_count": 286,
+      "images_resolved": 541,
+      "masks_resolved": 541,
+      "dimensions_sample_stats": {
+        "height_mean": 5091.18,
+        "height_min": 3944,
+        "height_max": 6766,
+        "width_mean": 3101.27,
+        "width_min": 1831,
+        "width_max": 4726
+      }
+    }
+  },
+  "class_weights": {
+    "w0_benign": 0.8507,
+    "w1_malignant": 1.2129
+  }
+}

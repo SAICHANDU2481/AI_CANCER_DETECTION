@@ -1,0 +1,22 @@
+{
+  "overall": {
+    "brier_score": 0.1747,
+    "ece_pct": 10.12
+  },
+  "mass": {
+    "brier_score": 0.1775,
+    "ece_pct": 12.4
+  },
+  "calcification": {
+    "brier_score": 0.1724,
+    "ece_pct": 9.6
+  },
+  "view_cc": {
+    "brier_score": 0.1793,
+    "ece_pct": 12.78
+  },
+  "view_mlo": {
+    "brier_score": 0.1705,
+    "ece_pct": 9.21
+  }
+}

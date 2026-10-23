@@ -1,0 +1,15 @@
+Arm,Category,Count,Percentage
+Arm D,1. Correct Classification + Good Proposal (IoU>=0.30),137,25.32%
+Arm D,2. Correct Classification + Weak Proposal (IoU<0.30),270,49.91%
+Arm D,3. Malignant False Negative + Poor Proposal (IoU<0.30),37,6.84%
+Arm D,4. Malignant False Negative + Good Proposal (IoU>=0.30),28,5.18%
+Arm D,5. Benign False Positive + Poor Proposal (IoU<0.30),52,9.61%
+Arm D,6. Benign False Positive + Good Proposal (IoU>=0.30),17,3.14%
+Arm D,7. Fallback / Zero-Proposal Pathway,0,0.00%
+Arm E2,1. Correct Classification + Good Proposal (IoU>=0.30),135,24.95%
+Arm E2,2. Correct Classification + Weak Proposal (IoU<0.30),255,47.13%
+Arm E2,3. Malignant False Negative + Poor Proposal (IoU<0.30),31,5.73%
+Arm E2,4. Malignant False Negative + Good Proposal (IoU>=0.30),21,3.88%
+Arm E2,5. Benign False Positive + Poor Proposal (IoU<0.30),73,13.49%
+Arm E2,6. Benign False Positive + Good Proposal (IoU>=0.30),26,4.81%
+Arm E2,7. Fallback / Zero-Proposal Pathway,0,0.00%

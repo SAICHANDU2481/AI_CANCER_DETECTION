@@ -1,0 +1,49 @@
+{
+  "phase": "V9 Phase 4 \u2014 Calibration & Confidence Validation",
+  "locked_model": "V9 Phase 2 Arm G",
+  "checkpoint_md5": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+  "sample_count": 541,
+  "patient_count": 235,
+  "calibration_arms_evaluated": [
+    "Raw",
+    "Temperature Scaling",
+    "Platt Logistic",
+    "Isotonic Regression"
+  ],
+  "selected_method": "Temperature Scaling",
+  "primary_metric": "Brier Score",
+  "secondary_metric": "ECE",
+  "summary_comparison": {
+    "raw": {
+      "brier": 0.1747,
+      "ece": 10.37,
+      "nll": 0.5187
+    },
+    "temperature_scaling": {
+      "brier": 0.1725,
+      "ece": 11.11,
+      "nll": 0.5139,
+      "t_param": 1.2128
+    },
+    "platt_scaling": {
+      "brier": 0.1642,
+      "ece": 8.04,
+      "nll": 0.4891,
+      "a_slope": 0.8614,
+      "b_intercept": -0.5537
+    },
+    "isotonic_regression": {
+      "brier": 0.1543,
+      "ece": 0.0,
+      "nll": 0.4578
+    }
+  },
+  "ranking_preservation": {
+    "raw_roc_auc": 0.8303,
+    "calibrated_roc_auc": 0.8303,
+    "roc_auc_delta": 0.0,
+    "spearman_rank_correlation": 0.999998332684111,
+    "preservation_status": "PERFECTLY_PRESERVED"
+  },
+  "overall_assessment": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASSED",
+  "evaluated_scans": 10,
+  "max_probability_difference": 0.0,
+  "max_logit_difference": 0.0,
+  "is_deterministic": true,
+  "run1_sample_probs": [
+    0.482177734375,
+    0.71728515625,
+    0.461181640625,
+    0.78466796875,
+    0.2646484375
+  ],
+  "run2_sample_probs": [
+    0.482177734375,
+    0.71728515625,
+    0.461181640625,
+    0.78466796875,
+    0.2646484375
+  ]
+}

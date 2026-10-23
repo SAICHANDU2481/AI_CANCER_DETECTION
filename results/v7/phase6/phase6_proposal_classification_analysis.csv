@@ -1,0 +1,9 @@
+arm,proposal_tier,N_scans,accuracy,macro_f1,malignant_sensitivity,specificity,roc_auc
+Arm B (Multi-Proposal Frozen ViT),Multi-Source Detected (U-KAN + High-Res/Calc),467,72.38,71.81,74.73,70.88,0.7857
+Arm B (Multi-Proposal Frozen ViT),Fallback / Low Confidence Context,541,71.16,70.69,74.88,68.79,0.7671
+Arm C (Multi-Proposal Last 2 Blocks),Multi-Source Detected (U-KAN + High-Res/Calc),467,80.09,78.63,69.23,87.02,0.8301
+Arm C (Multi-Proposal Last 2 Blocks),Fallback / Low Confidence Context,541,78.56,77.13,68.72,84.85,0.8248
+Arm D (Multi-Proposal Last 4 Blocks),Multi-Source Detected (U-KAN + High-Res/Calc),467,76.02,75.45,78.02,74.74,0.8523
+Arm D (Multi-Proposal Last 4 Blocks),Fallback / Low Confidence Context,541,75.42,74.75,75.83,75.15,0.8423
+Arm E2 (Multi-Proposal K=5),Multi-Source Detected (U-KAN + High-Res/Calc),467,75.16,74.27,72.53,76.84,0.8256
+Arm E2 (Multi-Proposal K=5),Fallback / Low Confidence Context,541,74.68,73.74,71.56,76.67,0.8186

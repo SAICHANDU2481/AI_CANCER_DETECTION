@@ -1,0 +1,51 @@
+[
+  {
+    "arm": "Arm A (Single Top-1 Local ROI)",
+    "allocated_vram_mb": 348.71,
+    "reserved_vram_mb": 458.0,
+    "peak_vram_mb": 391.04,
+    "total_arm_time_s": 1643.8
+  },
+  {
+    "arm": "Arm B (K=3 Proposals + Frozen ViT)",
+    "allocated_vram_mb": 355.7,
+    "reserved_vram_mb": 480.0,
+    "peak_vram_mb": 416.42,
+    "total_arm_time_s": 1317.7
+  },
+  {
+    "arm": "Arm C (K=5 Proposals + Frozen ViT)",
+    "allocated_vram_mb": 361.44,
+    "reserved_vram_mb": 516.0,
+    "peak_vram_mb": 439.82,
+    "total_arm_time_s": 3026.9
+  },
+  {
+    "arm": "Arm D (K=5 + Candidate Attention)",
+    "allocated_vram_mb": 472.75,
+    "reserved_vram_mb": 1162.0,
+    "peak_vram_mb": 1035.65,
+    "total_arm_time_s": 1914.1
+  },
+  {
+    "arm": "Arm E (K=5 + Attention + Full Mammo)",
+    "allocated_vram_mb": 490.43,
+    "reserved_vram_mb": 1262.0,
+    "peak_vram_mb": 1145.64,
+    "total_arm_time_s": 2050.3
+  },
+  {
+    "arm": "Arm F (K=5 + Attention + Mammo + Calc Patch)",
+    "allocated_vram_mb": 499.76,
+    "reserved_vram_mb": 1380.0,
+    "peak_vram_mb": 1249.27,
+    "total_arm_time_s": 3427.6
+  },
+  {
+    "arm": "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)",
+    "allocated_vram_mb": 510.35,
+    "reserved_vram_mb": 1500.0,
+    "peak_vram_mb": 1351.39,
+    "total_arm_time_s": 3174.6
+  }
+]

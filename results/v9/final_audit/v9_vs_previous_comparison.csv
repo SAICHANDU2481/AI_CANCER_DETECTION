@@ -1,0 +1,9 @@
+Version,Architecture,Accuracy (%),Macro-F1 (%),Binary F1 (%),ROC-AUC,PR-AUC,Sensitivity (%),Specificity (%)
+V1,Single-Scale ViT Baseline,52.57,41.06,38.5,0.3972,0.3732,45.2,57.6
+V2-A,Cropped RoI + Augmentation,56.76,56.46,54.8,0.6223,0.5627,61.4,53.5
+V3-B,Multi-Resolution (224+384) ViT,64.57,62.44,58.2,0.6579,0.5452,53.95,71.94
+V4-A,Multi-View (CC+MLO) Siamese,63.43,61.72,58.1,0.6725,0.6031,56.74,68.06
+V5 Arm I,ViT-B/16 + ConvNeXt Ensemble,65.02,64.73,63.2,0.6988,0.5916,68.84,62.38
+V6 Arm C,U-KAN Guided RoI + ViT,64.45,64.11,62.5,0.7087,0.5975,67.44,62.38
+V8 Arm F,K=3 Proposals + Tuned ViT,64.57,64.18,62.31,0.6947,0.5857,66.51,63.23
+V9 Arm G,K=5 + Attention + Mammo + Calc + Context,62.86,62.86,62.72,0.7046,0.6129,76.28,53.55

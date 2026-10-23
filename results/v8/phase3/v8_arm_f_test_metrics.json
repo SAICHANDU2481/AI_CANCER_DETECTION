@@ -1,0 +1,83 @@
+{
+  "model_name": "MultiScaleViTV8_Arm_F",
+  "checkpoint_path": "models/v8/classification/vit_v8_phase2_arm_f_best.pth",
+  "checkpoint_md5": "882313ce67adca01bffa699a180719c4",
+  "ukan_checkpoint_path": "models/v6/segmentation/final/ukan_v6_arm_g_best.pth",
+  "ukan_checkpoint_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+  "primary_525_cohort": {
+    "accuracy": 64.57,
+    "precision": 55.69,
+    "recall_sensitivity": 66.05,
+    "specificity": 63.55,
+    "f1_binary": 60.43,
+    "macro_f1": 64.18,
+    "roc_auc": 0.6947,
+    "pr_auc": 0.5857,
+    "brier_score": 0.3143,
+    "ece": 29.87,
+    "tn": 197,
+    "fp": 113,
+    "fn": 73,
+    "tp": 142
+  },
+  "comprehensive_526_cohort": {
+    "accuracy": 64.64,
+    "precision": 55.69,
+    "recall_sensitivity": 66.05,
+    "specificity": 63.67,
+    "f1_binary": 60.43,
+    "macro_f1": 64.23,
+    "roc_auc": 0.6956,
+    "pr_auc": 0.5857,
+    "brier_score": 0.3137,
+    "ece": 29.81,
+    "tn": 198,
+    "fp": 113,
+    "fn": 73,
+    "tp": 142
+  },
+  "confidence_intervals_95": {
+    "accuracy": [
+      64.44,
+      59.06,
+      69.79
+    ],
+    "macro_f1": [
+      63.92,
+      58.8,
+      69.01
+    ],
+    "roc_auc": [
+      0.6925,
+      0.6309,
+      0.7474
+    ],
+    "pr_auc": [
+      0.5887,
+      0.5059,
+      0.6723
+    ],
+    "recall_sensitivity": [
+      66.08,
+      58.85,
+      72.93
+    ],
+    "specificity": [
+      63.19,
+      54.58,
+      71.56
+    ],
+    "precision": [
+      55.57,
+      47.88,
+      63.27
+    ],
+    "f1_binary": [
+      60.29,
+      54.03,
+      66.09
+    ]
+  },
+  "timestamp": 1790999201.3829138,
+  "date_str": "2026-10-03 09:16:41"
+}

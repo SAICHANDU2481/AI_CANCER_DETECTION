@@ -1,0 +1,86 @@
+{
+  "project_title": "Advanced Breast Cancer Diagnosis Using Wiener Filtering, Vision Transformer, and U-KAN-Based Medical Image Analysis",
+  "final_model": "V8 (Arm F: Dual-Resolution U-KAN K=3 Multi-Scale Proposals + Last 4 ViT Blocks Fine-Tuned)",
+  "freeze_status": "FROZEN",
+  "test_status": "LOCKED",
+  "primary_test_cohort": {
+    "total_scans": 525,
+    "total_patients": 235,
+    "benign_scans": 310,
+    "malignant_scans": 215,
+    "mass_scans": 267,
+    "calcification_scans": 258,
+    "patient_leakage": 0,
+    "metrics": {
+      "accuracy": 64.57,
+      "macro_f1": 64.18,
+      "binary_f1": 60.43,
+      "roc_auc": 0.6947,
+      "pr_auc": 0.5857,
+      "sensitivity": 66.05,
+      "specificity": 63.55,
+      "precision": 55.69,
+      "brier_score": 0.3143,
+      "ece": 29.87
+    },
+    "confusion_matrix": {
+      "tn": 197,
+      "fp": 113,
+      "fn": 73,
+      "tp": 142
+    },
+    "confidence_intervals_95": {
+      "accuracy": [64.44, 59.06, 69.79],
+      "macro_f1": [63.92, 58.80, 69.01],
+      "binary_f1": [60.29, 54.03, 66.09],
+      "roc_auc": [0.6925, 0.6309, 0.7474],
+      "pr_auc": [0.5887, 0.5059, 0.6723],
+      "sensitivity": [66.08, 58.85, 72.93],
+      "specificity": [63.19, 54.58, 71.56],
+      "precision": [55.57, 47.88, 63.27]
+    }
+  },
+  "comprehensive_526_cohort": {
+    "total_scans": 526,
+    "total_patients": 235,
+    "accuracy": 64.64,
+    "macro_f1": 64.23,
+    "binary_f1": 60.43,
+    "roc_auc": 0.6956,
+    "pr_auc": 0.5857,
+    "sensitivity": 66.05,
+    "specificity": 63.67,
+    "precision": 55.69,
+    "brier_score": 0.3137,
+    "ece": 29.81,
+    "confusion_matrix": {
+      "tn": 198,
+      "fp": 113,
+      "fn": 73,
+      "tp": 142
+    }
+  },
+  "checkpoints": {
+    "vit_classifier": {
+      "path": "models/final_v8/vit_v8_final.pth",
+      "original_path": "models/v8/classification/vit_v8_phase2_arm_f_best.pth",
+      "md5": "882313ce67adca01bffa699a180719c4",
+      "sha256": "7aa49ef7ff2f94e72cc2f27361af89ba0cd04dae00b333f41d8c50a37a1c64c7",
+      "size_bytes": 366913760
+    },
+    "ukan_segmentation": {
+      "path": "models/final_v8/ukan_v6_final.pth",
+      "original_path": "models/v6/segmentation/final/ukan_v6_arm_g_best.pth",
+      "md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "sha256": "f2cd9b1208f4b77416640201143539d6d08b1ff03cb175e1502eb73b8431769d",
+      "size_bytes": 91242039
+    }
+  },
+  "governance": {
+    "test_retraining": false,
+    "test_tuning": false,
+    "threshold_fixed": 0.50,
+    "tta_performed": false,
+    "status": "PASS_LOCKED_AUDIT"
+  }
+}

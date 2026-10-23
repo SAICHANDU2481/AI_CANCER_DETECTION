@@ -1,0 +1,29 @@
+{
+  "total_validation_scans": 541,
+  "machine_roi_count": 328,
+  "machine_roi_rate_pct": 60.62846580406654,
+  "expanded_roi_count": 36,
+  "expanded_roi_rate_pct": 6.654343807763401,
+  "context_roi_count": 0,
+  "context_roi_rate_pct": 0.0,
+  "fallback_roi_count": 177,
+  "fallback_roi_rate_pct": 32.71719038817005,
+  "roi_quality_score": {
+    "mean": 0.5331530987777523,
+    "std": 0.37994439865860347,
+    "median": 0.7551253785949621,
+    "min": 0.0,
+    "p25": 0.0,
+    "p75": 0.8236685139865193,
+    "max": 1.0
+  },
+  "segmentation_dice": {
+    "mean": 0.191474276020814,
+    "std": 0.29577133561351543,
+    "median": 0.0,
+    "min": 0.0,
+    "p25": 0.0,
+    "p75": 0.4410575427682737,
+    "max": 0.92807881773399
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "winning_arm": "E",
+  "winning_description": "Multi-Scale Fusion (Local + Medium + Large + Context, Visual Only)",
+  "winning_stage": 1,
+  "winning_epoch": 5,
+  "checkpoint_path": "models/v4/vit_v4_best.pth",
+  "checkpoint_md5": "d016fdc756758658e03d43f02fd4482c",
+  "metrics": {
+    "accuracy": 0.7190388170055453,
+    "macro_f1": 0.7026526656831265,
+    "binary_f1": 0.6328502415458938,
+    "roc_auc": 0.7611589831968979,
+    "pr_auc": 0.6505531844489115,
+    "sensitivity_malignant_recall": 0.6208530805687204,
+    "specificity": 0.7818181818181819,
+    "precision": 0.645320197044335,
+    "tp": 131,
+    "tn": 258,
+    "fp": 72,
+    "fn": 80
+  },
+  "error_categories": {
+    "Severe segmentation failure (Dice < 0.10)": 98,
+    "Good localization but classifier failure": 32,
+    "Partial localization (0.10 <= Dice < 0.50)": 22
+  },
+  "malignant_fn_breakdown": {
+    "total_malignant_fn": 80,
+    "severe_localization_fn": 48,
+    "partial_localization_fn": 14,
+    "fallback_context_fn": 0,
+    "good_localization_classifier_fn": 18,
+    "localization_associated_fn_count": 62,
+    "localization_associated_fn_pct": 77.5,
+    "v3b_reference_fn_count": 108,
+    "v3b_reference_localization_associated_count": 80,
+    "v3b_reference_localization_associated_pct": 74.07
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "cohort": "Primary 525-record test cohort",
+  "brier_score": 0.3143,
+  "ece_percent": 29.87,
+  "roc_auc": 0.6947,
+  "pr_auc": 0.5857,
+  "reliability_bins": [
+    {
+      "bin_range": "[0.0, 0.1]",
+      "sample_count": 203,
+      "mean_predicted_prob": 0.0391,
+      "empirical_accuracy": 0.2365
+    },
+    {
+      "bin_range": "[0.1, 0.2]",
+      "sample_count": 34,
+      "mean_predicted_prob": 0.1511,
+      "empirical_accuracy": 0.4706
+    },
+    {
+      "bin_range": "[0.2, 0.3]",
+      "sample_count": 15,
+      "mean_predicted_prob": 0.2306,
+      "empirical_accuracy": 0.4667
+    },
+    {
+      "bin_range": "[0.3, 0.4]",
+      "sample_count": 13,
+      "mean_predicted_prob": 0.3779,
+      "empirical_accuracy": 0.0769
+    },
+    {
+      "bin_range": "[0.4, 0.5]",
+      "sample_count": 5,
+      "mean_predicted_prob": 0.4329,
+      "empirical_accuracy": 0.2
+    },
+    {
+      "bin_range": "[0.5, 0.6]",
+      "sample_count": 8,
+      "mean_predicted_prob": 0.5635,
+      "empirical_accuracy": 0.625
+    },
+    {
+      "bin_range": "[0.6, 0.7]",
+      "sample_count": 7,
+      "mean_predicted_prob": 0.6489,
+      "empirical_accuracy": 0.4286
+    },
+    {
+      "bin_range": "[0.7, 0.8]",
+      "sample_count": 14,
+      "mean_predicted_prob": 0.7661,
+      "empirical_accuracy": 0.7857
+    },
+    {
+      "bin_range": "[0.8, 0.9]",
+      "sample_count": 19,
+      "mean_predicted_prob": 0.855,
+      "empirical_accuracy": 0.2632
+    },
+    {
+      "bin_range": "[0.9, 1.0]",
+      "sample_count": 207,
+      "mean_predicted_prob": 0.9746,
+      "empirical_accuracy": 0.57
+    }
+  ]
+}

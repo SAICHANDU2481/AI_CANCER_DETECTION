@@ -1,0 +1,136 @@
+{
+  "phase": "V9 Phase 0 Pre-Flight Governance & Checkpoint Audit",
+  "timestamp": 1791000114.2669122,
+  "date_str": "2026-10-03 09:31:54",
+  "governance_status": "PASS",
+  "test_set_quarantine_status": "STRICTLY_LOCKED_ZERO_ACCESS",
+  "test_reads_count": 0,
+  "test_predictions_count": 0,
+  "test_cache_exists": false,
+  "checkpoints": {
+    "v6_ukan": {
+      "description": "V6 MultiScale U-KAN Segmentor (Arm G Best)",
+      "path": "models/v6/segmentation/final/ukan_v6_arm_g_best.pth",
+      "file_size_bytes": 91242039,
+      "expected_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "actual_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "status": "PASS (EXACT MATCH)"
+    },
+    "v6_vit_arm_c": {
+      "description": "V6 MultiScale ViT Classifier (Arm C Best)",
+      "path": "models/v6/classification/vit_v6_arm_c_best.pth",
+      "file_size_bytes": 366927754,
+      "expected_md5": "508250cfc1c07af1ea7d81cc2e5a7418",
+      "actual_md5": "508250cfc1c07af1ea7d81cc2e5a7418",
+      "status": "PASS (EXACT MATCH)"
+    },
+    "v8_vit_arm_f": {
+      "description": "V8 MultiScale ViT Classifier (Arm F Best)",
+      "path": "models/v8/classification/vit_v8_phase2_arm_f_best.pth",
+      "file_size_bytes": 366913760,
+      "expected_md5": "882313ce67adca01bffa699a180719c4",
+      "actual_md5": "882313ce67adca01bffa699a180719c4",
+      "status": "PASS (EXACT MATCH)"
+    },
+    "v5_vit_arm_i": {
+      "description": "V5 MultiScale ViT Classifier (Arm I Best)",
+      "path": "models/v5/classification/vit_v5_arm_i_best.pth",
+      "file_size_bytes": 366927754,
+      "expected_md5": "ec80689a43a906f89a15d7148cf7b05e",
+      "actual_md5": "ec80689a43a906f89a15d7148cf7b05e",
+      "status": "PASS (EXACT MATCH)"
+    }
+  },
+  "splits": {
+    "train_split": {
+      "scan_count": 2501,
+      "patient_count": 1096,
+      "benign_count": 1470,
+      "malignant_count": 1031,
+      "mass_count": 1185,
+      "calc_count": 1316
+    },
+    "validation_split": {
+      "scan_count": 541,
+      "patient_count": 235,
+      "benign_count": 330,
+      "malignant_count": 211,
+      "mass_count": 244,
+      "calc_count": 297
+    },
+    "primary_test_split": {
+      "scan_count": 525,
+      "patient_count": 235,
+      "benign_count": 310,
+      "malignant_count": 215,
+      "mass_count": 267,
+      "calc_count": 258
+    },
+    "comprehensive_test_split": {
+      "scan_count": 526,
+      "patient_count": 235,
+      "benign_count": 311,
+      "malignant_count": 215
+    },
+    "patient_isolation": {
+      "train_val_overlap": 0,
+      "train_test_overlap": 0,
+      "val_test_overlap": 0,
+      "status": "PASS (STRICT ZERO OVERLAP)"
+    }
+  },
+  "hardware": {
+    "cuda_available": true,
+    "gpu_device_name": "NVIDIA GeForce RTX 2050",
+    "gpu_vram_total_mb": 4095.5,
+    "cuda_version": "12.4",
+    "pytorch_version": "2.6.0+cu124",
+    "host_os": "win32",
+    "host_ram_total_mb": 16108.1,
+    "host_ram_avail_mb": 5984.6,
+    "host_pagefile_total_mb": 25883.0,
+    "host_pagefile_avail_mb": 5877.1,
+    "random_seed": 42
+  },
+  "v8_failure_baseline": {
+    "model_arm": "V8 Arm F (Locked Final Test Baseline)",
+    "accuracy": 64.57,
+    "macro_f1": 64.18,
+    "binary_f1": 60.43,
+    "roc_auc": 0.6947,
+    "pr_auc": 0.5857,
+    "sensitivity": 66.05,
+    "specificity": 63.55,
+    "precision": 55.69,
+    "confusion_matrix": {
+      "tn": 197,
+      "fp": 113,
+      "fn": 73,
+      "tp": 142
+    },
+    "brier_score": 0.3143,
+    "ece": 29.87,
+    "iou_breakdown": {
+      "iou_lt_0.10": {
+        "count": 211,
+        "sensitivity": 50.79,
+        "specificity": 68.24
+      },
+      "iou_0.10_0.30": {
+        "count": 83,
+        "sensitivity": 59.52,
+        "specificity": 56.1
+      },
+      "iou_0.30_0.50": {
+        "count": 100,
+        "sensitivity": 80.39,
+        "specificity": 57.14
+      },
+      "iou_ge_0.50": {
+        "count": 131,
+        "sensitivity": 74.58,
+        "specificity": 62.5
+      }
+    }
+  }
+}

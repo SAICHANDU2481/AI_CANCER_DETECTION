@@ -1,0 +1,20 @@
+{
+  "V6_UKAN": {
+    "path": "models/v6/segmentation/final/ukan_v6_arm_g_best.pth",
+    "expected_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+    "actual_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+    "status": "PASS"
+  },
+  "V8_Arm_F": {
+    "path": "models/v8/classification/vit_v8_phase2_arm_f_best.pth",
+    "expected_md5": "882313ce67adca01bffa699a180719c4",
+    "actual_md5": "882313ce67adca01bffa699a180719c4",
+    "status": "PASS"
+  },
+  "V9_Arm_G": {
+    "path": "models/v9/phase2/v9_phase2_arm_g_best.pth",
+    "expected_md5": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+    "actual_md5": "c60b1aab0a1bc809c9ae27a57ddc65ec",
+    "status": "PASS"
+  }
+}

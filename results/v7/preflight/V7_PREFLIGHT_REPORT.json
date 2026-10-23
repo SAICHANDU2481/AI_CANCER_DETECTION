@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-09-29T18:28:00",
+  "status": "PASSED",
+  "frozen_checkpoints": {
+    "ukan_v6_arm_g_best": {
+      "path": "models/v6/segmentation/final/ukan_v6_arm_g_best.pth",
+      "exists": true,
+      "md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "expected_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+      "matches": true
+    },
+    "vit_v6_arm_c_best": {
+      "path": "models/v6/classification/vit_v6_arm_c_best.pth",
+      "exists": true,
+      "md5": "508250cfc1c07af1ea7d81cc2e5a7418",
+      "expected_md5": "508250cfc1c07af1ea7d81cc2e5a7418",
+      "matches": true
+    }
+  },
+  "dataset_splits": {
+    "train": {
+      "records": 2501,
+      "patients": 1096,
+      "expected_records": 2501,
+      "expected_patients": 1096,
+      "matches": true
+    },
+    "validation": {
+      "records": 541,
+      "patients": 235,
+      "expected_records": 541,
+      "expected_patients": 235,
+      "matches": true
+    },
+    "test_accessed": false,
+    "patient_overlap_train_val": 0
+  },
+  "hardware": {
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 2050",
+    "vram_total_gb": 4.0,
+    "amp_fp16_available": true
+  },
+  "codebase_imports": {
+    "segmentation.v6.ukan_v6": true,
+    "classification.v6.model_v6": true,
+    "classification.v6.roi_generator_v6": true,
+    "classification.v6.topk_proposals_v6": true
+  },
+  "safety_rules": {
+    "test_csv_read": false,
+    "test_images_loaded": false,
+    "test_masks_loaded": false,
+    "test_predictions_generated": false,
+    "v7_test_dir_created": false,
+    "v6_checkpoints_unmodified": true
+  }
+}

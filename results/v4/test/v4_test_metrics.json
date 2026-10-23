@@ -1,0 +1,79 @@
+{
+  "model_name": "V4-A Multi-Scale Visual Fusion ViT",
+  "checkpoint_path": "models/v4/vit_v4_best.pth",
+  "checkpoint_md5": "d016fdc756758658e03d43f02fd4482c",
+  "ukan_checkpoint_path": "models/v2b/segmentation/ukan_v2b_best.pth",
+  "ukan_checkpoint_md5": "a9a18b540cfd23114313b3e6d4276595",
+  "test_scans": 525,
+  "test_patients": 235,
+  "primary_metrics": {
+    "accuracy": 0.6342857142857142,
+    "accuracy_pct": 63.42857142857142,
+    "accuracy_95ci": [
+      0.5942857142857143,
+      0.6742857142857143
+    ],
+    "macro_f1": 0.6171725458025704,
+    "macro_f1_pct": 61.71725458025704,
+    "macro_f1_95ci": [
+      0.5750746830409165,
+      0.6583106790205587
+    ],
+    "binary_f1": 0.5362318840579711,
+    "binary_f1_pct": 53.62318840579711,
+    "roc_auc": 0.6724981245311328,
+    "roc_auc_95ci": [
+      0.630210546506852,
+      0.7175546675612339
+    ],
+    "pr_auc": 0.6030855741223995,
+    "malignant_recall": 0.5162790697674419,
+    "malignant_recall_pct": 51.627906976744185,
+    "specificity": 0.7161290322580646,
+    "specificity_pct": 71.61290322580646,
+    "precision": 0.5577889447236181,
+    "precision_pct": 55.778894472361806
+  },
+  "per_class_metrics": {
+    "benign": {
+      "precision": 0.6809815950920245,
+      "recall": 0.7161290322580646,
+      "f1_score": 0.6981132075471699,
+      "support": 310
+    },
+    "malignant": {
+      "precision": 0.5577889447236181,
+      "recall": 0.5162790697674419,
+      "f1_score": 0.536231884057971,
+      "support": 215
+    }
+  },
+  "confusion_matrix": {
+    "tp": 111,
+    "tn": 222,
+    "fp": 88,
+    "fn": 104
+  },
+  "error_taxonomy": {
+    "total_errors": 192,
+    "error_rate_pct": 36.57142857142857,
+    "categories": {
+      "Severe segmentation failure (Dice < 0.10)": 119,
+      "Good localization but classifier failure": 43,
+      "Partial lesion localization (0.10 <= Dice < 0.50)": 30
+    },
+    "malignant_fn_breakdown": {
+      "total_malignant_fn": 104,
+      "severe_localization_fn": 65,
+      "partial_localization_fn": 17,
+      "fallback_context_fn": 0,
+      "good_localization_classifier_fn": 22,
+      "localization_associated_fn_count": 82,
+      "localization_associated_fn_pct": 78.84615384615384,
+      "v3b_locked_reference_fn_count": 108,
+      "v3b_locked_reference_loc_associated_count": 80,
+      "v3b_locked_reference_loc_associated_pct": 74.07
+    }
+  },
+  "execution_time_seconds": 96.12519073486328
+}

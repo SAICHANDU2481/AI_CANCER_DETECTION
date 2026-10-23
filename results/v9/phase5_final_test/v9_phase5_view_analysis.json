@@ -1,0 +1,33 @@
+{
+  "CC": {
+    "n": 250,
+    "accuracy": 65.2,
+    "precision": 56.12,
+    "sensitivity": 75.0,
+    "specificity": 58.22,
+    "f1_binary": 64.2,
+    "macro_f1": 65.17,
+    "roc_auc": 0.7362,
+    "pr_auc": 0.6517,
+    "brier": 0.221
+  },
+  "MLO": {
+    "n": 275,
+    "accuracy": 60.73,
+    "precision": 50.89,
+    "sensitivity": 77.48,
+    "specificity": 49.39,
+    "f1_binary": 61.43,
+    "macro_f1": 60.71,
+    "roc_auc": 0.6733,
+    "pr_auc": 0.5785,
+    "brier": 0.247
+  },
+  "Delta_CC_MLO": {
+    "accuracy": 4.47,
+    "macro_f1": 4.46,
+    "roc_auc": 0.0629,
+    "sensitivity": -2.48,
+    "specificity": 8.83
+  }
+}

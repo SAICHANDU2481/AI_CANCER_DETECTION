@@ -1,0 +1,20 @@
+{
+  "status": "PASSED",
+  "evaluated_cases": 10,
+  "max_probability_difference": 0.0,
+  "is_deterministic": true,
+  "run1_sample_probs": [
+    0.481338,
+    0.717102,
+    0.460712,
+    0.784806,
+    0.264128
+  ],
+  "run2_sample_probs": [
+    0.481338,
+    0.717102,
+    0.460712,
+    0.784806,
+    0.264128
+  ]
+}

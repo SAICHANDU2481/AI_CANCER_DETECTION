@@ -1,0 +1,5 @@
+Version,Total Scans,Unique Patients,Benign Scans,Malignant Scans,Malignant Prevalence (%)
+V5 Arm I,526,235,311,215,40.87
+V6 Arm C,526,235,311,215,40.87
+V8 Arm F,525,235,310,215,40.95
+V9 Arm G,525,235,310,215,40.95

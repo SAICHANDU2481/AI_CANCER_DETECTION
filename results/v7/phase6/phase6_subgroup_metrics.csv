@@ -1,0 +1,65 @@
+arm,subgroup,N_scans,accuracy,macro_f1,malignant_recall,specificity,roc_auc
+Arm B (Multi-Proposal Frozen ViT),Overall (All Validation Cohort),541,71.16,70.69,74.88,68.79,0.7671
+Arm B (Multi-Proposal Frozen ViT),Benign Cases (Label=0),330,68.79,40.75,100.0,100.0,0.5
+Arm B (Multi-Proposal Frozen ViT),Malignant Cases (Label=1),211,74.88,42.82,100.0,100.0,0.5
+Arm B (Multi-Proposal Frozen ViT),Mass Abnormality,244,68.44,68.43,76.11,61.83,0.7387
+Arm B (Multi-Proposal Frozen ViT),Calcification Abnormality,297,73.4,71.64,73.47,73.37,0.787
+Arm B (Multi-Proposal Frozen ViT),CC Image View,255,75.69,75.1,78.57,73.89,0.7774
+Arm B (Multi-Proposal Frozen ViT),MLO Image View,286,67.13,66.77,71.68,64.16,0.7615
+Arm B (Multi-Proposal Frozen ViT),Small Lesion Size (<= 33rd percentile),180,71.67,67.42,72.73,71.32,0.7674
+Arm B (Multi-Proposal Frozen ViT),Medium Lesion Size (33rd-66th percentile),181,66.3,65.79,71.01,63.39,0.6822
+Arm B (Multi-Proposal Frozen ViT),Large Lesion Size (> 66th percentile),180,75.56,75.31,78.57,71.95,0.8094
+Arm B (Multi-Proposal Frozen ViT),Machine Proposal Source: U-KAN,246,71.95,71.95,81.08,64.44,0.8003
+Arm B (Multi-Proposal Frozen ViT),Machine Proposal Source: High-Res 768,457,72.43,71.96,74.73,70.91,0.7868
+Arm B (Multi-Proposal Frozen ViT),Machine Proposal Source: Calc Detectors,541,71.16,70.69,74.88,68.79,0.7671
+Arm B (Multi-Proposal Frozen ViT),Multi-Source Composite Proposals,467,72.38,71.81,74.73,70.88,0.7857
+Arm B (Multi-Proposal Frozen ViT),Proposal Count: Multiple Proposals (N>=2),541,71.16,70.69,74.88,68.79,0.7671
+Arm B (Multi-Proposal Frozen ViT),Fallback Region Status: True (Fallback),541,71.16,70.69,74.88,68.79,0.7671
+Arm C (Multi-Proposal Last 2 Blocks),Overall (All Validation Cohort),541,78.56,77.13,68.72,84.85,0.8248
+Arm C (Multi-Proposal Last 2 Blocks),Benign Cases (Label=0),330,84.85,45.9,100.0,100.0,0.5
+Arm C (Multi-Proposal Last 2 Blocks),Malignant Cases (Label=1),211,68.72,40.73,100.0,100.0,0.5
+Arm C (Multi-Proposal Last 2 Blocks),Mass Abnormality,244,77.46,77.18,71.68,82.44,0.8189
+Arm C (Multi-Proposal Last 2 Blocks),Calcification Abnormality,297,79.46,76.33,65.31,86.43,0.8284
+Arm C (Multi-Proposal Last 2 Blocks),CC Image View,255,80.0,78.66,71.43,85.35,0.8342
+Arm C (Multi-Proposal Last 2 Blocks),MLO Image View,286,77.27,75.78,66.37,84.39,0.8138
+Arm C (Multi-Proposal Last 2 Blocks),Small Lesion Size (<= 33rd percentile),180,79.44,71.51,54.55,87.5,0.7951
+Arm C (Multi-Proposal Last 2 Blocks),Medium Lesion Size (33rd-66th percentile),181,77.9,76.44,69.57,83.04,0.8018
+Arm C (Multi-Proposal Last 2 Blocks),Large Lesion Size (> 66th percentile),180,78.33,78.32,74.49,82.93,0.8345
+Arm C (Multi-Proposal Last 2 Blocks),Machine Proposal Source: U-KAN,246,80.49,80.23,76.58,83.7,0.8447
+Arm C (Multi-Proposal Last 2 Blocks),Machine Proposal Source: High-Res 768,457,79.87,78.56,69.23,86.91,0.829
+Arm C (Multi-Proposal Last 2 Blocks),Machine Proposal Source: Calc Detectors,541,78.56,77.13,68.72,84.85,0.8248
+Arm C (Multi-Proposal Last 2 Blocks),Multi-Source Composite Proposals,467,80.09,78.63,69.23,87.02,0.8301
+Arm C (Multi-Proposal Last 2 Blocks),Proposal Count: Multiple Proposals (N>=2),541,78.56,77.13,68.72,84.85,0.8248
+Arm C (Multi-Proposal Last 2 Blocks),Fallback Region Status: True (Fallback),541,78.56,77.13,68.72,84.85,0.8248
+Arm D (Multi-Proposal Last 4 Blocks),Overall (All Validation Cohort),541,75.42,74.75,75.83,75.15,0.8423
+Arm D (Multi-Proposal Last 4 Blocks),Benign Cases (Label=0),330,75.15,42.91,100.0,100.0,0.5
+Arm D (Multi-Proposal Last 4 Blocks),Malignant Cases (Label=1),211,75.83,43.13,100.0,100.0,0.5
+Arm D (Multi-Proposal Last 4 Blocks),Mass Abnormality,244,72.95,72.95,77.88,68.7,0.8466
+Arm D (Multi-Proposal Last 4 Blocks),Calcification Abnormality,297,77.44,75.38,73.47,79.4,0.8321
+Arm D (Multi-Proposal Last 4 Blocks),CC Image View,255,72.94,72.56,79.59,68.79,0.8402
+Arm D (Multi-Proposal Last 4 Blocks),MLO Image View,286,77.62,76.66,72.57,80.92,0.8505
+Arm D (Multi-Proposal Last 4 Blocks),Small Lesion Size (<= 33rd percentile),180,80.56,75.62,72.73,83.09,0.8652
+Arm D (Multi-Proposal Last 4 Blocks),Medium Lesion Size (33rd-66th percentile),181,69.61,68.87,71.01,68.75,0.8175
+Arm D (Multi-Proposal Last 4 Blocks),Large Lesion Size (> 66th percentile),180,76.11,75.78,80.61,70.73,0.8267
+Arm D (Multi-Proposal Last 4 Blocks),Machine Proposal Source: U-KAN,246,76.42,76.42,82.88,71.11,0.8573
+Arm D (Multi-Proposal Last 4 Blocks),Machine Proposal Source: High-Res 768,457,75.71,75.26,78.02,74.18,0.8505
+Arm D (Multi-Proposal Last 4 Blocks),Machine Proposal Source: Calc Detectors,541,75.42,74.75,75.83,75.15,0.8423
+Arm D (Multi-Proposal Last 4 Blocks),Multi-Source Composite Proposals,467,76.02,75.45,78.02,74.74,0.8523
+Arm D (Multi-Proposal Last 4 Blocks),Proposal Count: Multiple Proposals (N>=2),541,75.42,74.75,75.83,75.15,0.8423
+Arm D (Multi-Proposal Last 4 Blocks),Fallback Region Status: True (Fallback),541,75.42,74.75,75.83,75.15,0.8423
+Arm E2 (Multi-Proposal K=5),Overall (All Validation Cohort),541,74.68,73.74,71.56,76.67,0.8186
+Arm E2 (Multi-Proposal K=5),Benign Cases (Label=0),330,76.67,43.4,100.0,100.0,0.5
+Arm E2 (Multi-Proposal K=5),Malignant Cases (Label=1),211,71.56,41.71,100.0,100.0,0.5
+Arm E2 (Multi-Proposal K=5),Mass Abnormality,244,73.36,73.26,72.57,74.05,0.8031
+Arm E2 (Multi-Proposal K=5),Calcification Abnormality,297,75.76,73.48,70.41,78.39,0.8246
+Arm E2 (Multi-Proposal K=5),CC Image View,255,70.98,70.05,69.39,71.97,0.8015
+Arm E2 (Multi-Proposal K=5),MLO Image View,286,77.97,77.06,73.45,80.92,0.8357
+Arm E2 (Multi-Proposal K=5),Small Lesion Size (<= 33rd percentile),180,80.56,75.62,72.73,83.09,0.8432
+Arm E2 (Multi-Proposal K=5),Medium Lesion Size (33rd-66th percentile),181,69.06,67.39,60.87,74.11,0.7647
+Arm E2 (Multi-Proposal K=5),Large Lesion Size (> 66th percentile),180,74.44,74.12,78.57,69.51,0.8355
+Arm E2 (Multi-Proposal K=5),Machine Proposal Source: U-KAN,246,78.05,77.96,79.28,77.04,0.8482
+Arm E2 (Multi-Proposal K=5),Machine Proposal Source: High-Res 768,457,74.84,74.08,72.53,76.36,0.8233
+Arm E2 (Multi-Proposal K=5),Machine Proposal Source: Calc Detectors,541,74.68,73.74,71.56,76.67,0.8186
+Arm E2 (Multi-Proposal K=5),Multi-Source Composite Proposals,467,75.16,74.27,72.53,76.84,0.8256
+Arm E2 (Multi-Proposal K=5),Proposal Count: Multiple Proposals (N>=2),541,74.68,73.74,71.56,76.67,0.8186
+Arm E2 (Multi-Proposal K=5),Fallback Region Status: True (Fallback),541,74.68,73.74,71.56,76.67,0.8186

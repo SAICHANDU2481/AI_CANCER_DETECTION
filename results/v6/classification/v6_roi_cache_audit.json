@@ -1,0 +1,26 @@
+{
+  "timestamp": 1790483158.5861266,
+  "date_str": "2026-09-27 09:55:58",
+  "train_records_audited": 2501,
+  "val_records_audited": 541,
+  "missing_records": 0,
+  "corrupt_records": 0,
+  "nan_inf_count": 0,
+  "patient_overlap": 0,
+  "test_reads": 0,
+  "test_cache_files": 0,
+  "test_quarantine_verified": true,
+  "max_rebuild_pixel_diff": 0.0,
+  "deterministic_rebuild_verified": true,
+  "v6_roi_metrics": {
+    "success_rate_pct": 15.9,
+    "fallback_rate_pct": 84.1,
+    "mean_dice_pct": 19.69,
+    "median_dice_pct": 0.5,
+    "mean_iou_pct": 13.93,
+    "median_iou_pct": 0.44,
+    "mass_dice_pct": 34.29,
+    "calc_dice_pct": 7.7
+  },
+  "audit_status": "PASSED"
+}

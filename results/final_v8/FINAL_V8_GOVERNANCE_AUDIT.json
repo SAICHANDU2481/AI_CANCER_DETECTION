@@ -1,0 +1,49 @@
+{
+  "audit_phase": "V8 Final Model Freeze & Scientific Governance Audit",
+  "audit_timestamp": "2026-10-04T00:00:48+05:30",
+  "project_title": "Advanced Breast Cancer Diagnosis Using Wiener Filtering, Vision Transformer, and U-KAN-Based Medical Image Analysis",
+  "final_model": "V8 (Arm F)",
+  "freeze_status": "FROZEN",
+  "test_benchmark_status": "LOCKED",
+  "audit_checklist": {
+    "v8_checkpoint_exists": "PASS",
+    "v8_checkpoint_integrity": "PASS",
+    "v8_locked_test_metrics_preserved": "PASS",
+    "v8_test_cohort_preserved": "PASS",
+    "v9_artifacts_preserved": "PASS",
+    "no_v9_metrics_replaced": "PASS",
+    "no_test_tuning_performed": "PASS",
+    "no_retraining_performed": "PASS",
+    "readme_updated": "PASS",
+    "final_model_is_v8": "PASS"
+  },
+  "cohort_parameters": {
+    "primary_test_scans": 525,
+    "primary_test_patients": 235,
+    "benign_cases": 310,
+    "malignant_cases": 215,
+    "patient_overlap_train_test": 0,
+    "patient_overlap_val_test": 0
+  },
+  "locked_primary_metrics": {
+    "accuracy": 64.57,
+    "macro_f1": 64.18,
+    "binary_f1": 60.43,
+    "roc_auc": 0.6947,
+    "pr_auc": 0.5857,
+    "sensitivity": 66.05,
+    "specificity": 63.55,
+    "precision": 55.69,
+    "brier_score": 0.3143,
+    "ece": 29.87
+  },
+  "experimental_extension_status": {
+    "v9_model": "V9 (Arm G + Temperature Scaling T=1.2128)",
+    "v9_status": "DOCUMENTED_EXPERIMENTAL_EXTENSION",
+    "v9_locked_accuracy": 62.86,
+    "v9_locked_sensitivity": 76.28,
+    "v9_locked_specificity": 53.55,
+    "v9_audit_passed": true
+  },
+  "governance_declaration": "All evaluations were executed without test-time data snooping, post-hoc threshold searching on test data, or test retraining. V8 is permanently frozen as the final reported model for thesis presentation."
+}

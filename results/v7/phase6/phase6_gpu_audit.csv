@@ -1,0 +1,5 @@
+batch_size,k_candidates,amp_status,peak_allocated_mb,peak_reserved_mb,step_latency_ms,nan_inf_count,safety_status
+8,3,AMP FP16 Enabled,1801.85,1944.0,1364.79,0,SAFE (< 4GB)
+8,5,AMP FP16 Enabled,2613.95,2822.0,1238.64,0,SAFE (< 4GB)
+16,3,AMP FP16 Enabled,3184.57,3442.0,3031.5,0,SAFE (< 4GB)
+16,5,AMP FP16 Enabled,4665.15,4966.0,9945.8,0,RISKY

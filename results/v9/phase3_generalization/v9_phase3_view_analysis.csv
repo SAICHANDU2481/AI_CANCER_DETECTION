@@ -1,0 +1,4 @@
+View,Sample Count,Accuracy (%),Macro-F1 (%),ROC-AUC,PR-AUC,Sensitivity (%),Specificity (%)
+CC,255,75.29,74.85,0.8238,0.7378,80.61,71.97
+MLO,286,74.83,74.46,0.8365,0.7559,79.65,71.68
+Delta (CC - MLO),541,0.46,0.39,-0.0127,-0.0181,0.96,0.29

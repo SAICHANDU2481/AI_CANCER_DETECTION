@@ -1,0 +1,602 @@
+[
+  {
+    "case_type": "Strong Mass",
+    "file_name": "case_1_strong_mass_P_01000.png",
+    "case_id": "MASS_P_01000_RIGHT_MLO_ab1",
+    "patient_id": "P_01000",
+    "abnormality_type": "MASS",
+    "pathology": "MALIGNANT",
+    "image_view": "MLO",
+    "gt_bbox": [
+      174,
+      230,
+      250,
+      370
+    ],
+    "arm1_max_iou": 0.8027849740932642,
+    "arm5_max_iou": 0.0,
+    "arm9_max_iou": 0.7069767441860465,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          167,
+          225,
+          253,
+          400
+        ],
+        "source": "ukan_512_t50",
+        "score": 0.6211
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          229,
+          347,
+          278,
+          428
+        ],
+        "source": "ukan_768_t50",
+        "score": 0.5139
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          222,
+          327,
+          270,
+          411
+        ],
+        "source": "ukan_512_t20",
+        "score": 0.5129
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          136,
+          45,
+          511,
+          512
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.4081
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          317,
+          190,
+          379,
+          252
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.3913
+      }
+    ]
+  },
+  {
+    "case_type": "Weak Mass",
+    "file_name": "case_2_weak_mass_P_00021.png",
+    "case_id": "MASS_P_00021_LEFT_MLO_ab1",
+    "patient_id": "P_00021",
+    "abnormality_type": "MASS",
+    "pathology": "BENIGN",
+    "image_view": "MLO",
+    "gt_bbox": [
+      244,
+      256,
+      267,
+      296
+    ],
+    "arm1_max_iou": 0.043541189241346034,
+    "arm5_max_iou": 0.058007566204287514,
+    "arm9_max_iou": 0.3526405451448041,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          87,
+          0,
+          350,
+          242
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.3054
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          232,
+          193,
+          322,
+          276
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.2966
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          216,
+          0,
+          418,
+          246
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.295
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          235,
+          244,
+          282,
+          292
+        ],
+        "source": "ukan_768_t50",
+        "score": 0.2892
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          301,
+          235,
+          363,
+          297
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.2752
+      }
+    ]
+  },
+  {
+    "case_type": "Strong Calcification",
+    "file_name": "case_3_strong_calcification_P_00085.png",
+    "case_id": "CALCIFICATION_P_00085_RIGHT_MLO_ab1",
+    "patient_id": "P_00085",
+    "abnormality_type": "CALCIFICATION",
+    "pathology": "MALIGNANT",
+    "image_view": "MLO",
+    "gt_bbox": [
+      273,
+      319,
+      353,
+      446
+    ],
+    "arm1_max_iou": 0.22979985174203113,
+    "arm5_max_iou": 0.09694193979294881,
+    "arm9_max_iou": 0.634479158899411,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          286,
+          305,
+          366,
+          452
+        ],
+        "source": "ukan_768_t50",
+        "score": 0.328
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          311,
+          325,
+          383,
+          397
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.328
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          323,
+          344,
+          395,
+          416
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2953
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          297,
+          302,
+          369,
+          374
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2902
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          0,
+          261,
+          512,
+          512
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.279
+      }
+    ]
+  },
+  {
+    "case_type": "Small Calcification",
+    "file_name": "case_4_small_calcification_P_00024.png",
+    "case_id": "CALCIFICATION_P_00024_LEFT_CC_ab1",
+    "patient_id": "P_00024",
+    "abnormality_type": "CALCIFICATION",
+    "pathology": "BENIGN",
+    "image_view": "CC",
+    "gt_bbox": [
+      262,
+      313,
+      272,
+      341
+    ],
+    "arm1_max_iou": 0.01708984375,
+    "arm5_max_iou": 0.007820136852394917,
+    "arm9_max_iou": 0.0,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          102,
+          394,
+          159,
+          500
+        ],
+        "source": "ukan_768_t35",
+        "score": 0.3389
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          62,
+          473,
+          152,
+          512
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.2685
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          130,
+          359,
+          202,
+          431
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2662
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          193,
+          224,
+          240,
+          309
+        ],
+        "source": "ukan_768_t50",
+        "score": 0.2636
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          93,
+          474,
+          255,
+          512
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.2623
+      }
+    ]
+  },
+  {
+    "case_type": "Malignant Lesion",
+    "file_name": "case_5_malignant_lesion_P_00085.png",
+    "case_id": "CALCIFICATION_P_00085_RIGHT_MLO_ab1",
+    "patient_id": "P_00085",
+    "abnormality_type": "CALCIFICATION",
+    "pathology": "MALIGNANT",
+    "image_view": "MLO",
+    "gt_bbox": [
+      273,
+      319,
+      353,
+      446
+    ],
+    "arm1_max_iou": 0.22979985174203113,
+    "arm5_max_iou": 0.09694193979294881,
+    "arm9_max_iou": 0.634479158899411,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          286,
+          305,
+          366,
+          452
+        ],
+        "source": "ukan_768_t50",
+        "score": 0.328
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          311,
+          325,
+          383,
+          397
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.328
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          323,
+          344,
+          395,
+          416
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2953
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          297,
+          302,
+          369,
+          374
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2902
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          0,
+          261,
+          512,
+          512
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.279
+      }
+    ]
+  },
+  {
+    "case_type": "Poor Localization Baseline",
+    "file_name": "case_6_poor_localization_case_P_00013.png",
+    "case_id": "CALCIFICATION_P_00013_RIGHT_MLO_ab1",
+    "patient_id": "P_00013",
+    "abnormality_type": "CALCIFICATION",
+    "pathology": "BENIGN",
+    "image_view": "MLO",
+    "gt_bbox": [
+      298,
+      14,
+      340,
+      113
+    ],
+    "arm1_max_iou": 0.03716045642734525,
+    "arm5_max_iou": 0.08716981132075471,
+    "arm9_max_iou": 0.08716981132075471,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          0,
+          0,
+          64,
+          328
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          354,
+          0,
+          454,
+          322
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.1936
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          218,
+          0,
+          430,
+          225
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.1904
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          379,
+          216,
+          441,
+          278
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.1727
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          333,
+          177,
+          405,
+          249
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.1574
+      }
+    ]
+  },
+  {
+    "case_type": "Multi-Proposal Recovery",
+    "file_name": "case_7_multi_proposal_recovery_P_00085.png",
+    "case_id": "CALCIFICATION_P_00085_RIGHT_MLO_ab1",
+    "patient_id": "P_00085",
+    "abnormality_type": "CALCIFICATION",
+    "pathology": "MALIGNANT",
+    "image_view": "MLO",
+    "gt_bbox": [
+      273,
+      319,
+      353,
+      446
+    ],
+    "arm1_max_iou": 0.22979985174203113,
+    "arm5_max_iou": 0.09694193979294881,
+    "arm9_max_iou": 0.634479158899411,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          286,
+          305,
+          366,
+          452
+        ],
+        "source": "ukan_768_t50",
+        "score": 0.328
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          311,
+          325,
+          383,
+          397
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.328
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          323,
+          344,
+          395,
+          416
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2953
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          297,
+          302,
+          369,
+          374
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2902
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          0,
+          261,
+          512,
+          512
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.279
+      }
+    ]
+  },
+  {
+    "case_type": "Persistent Failure Case",
+    "file_name": "case_8_persistent_failure_P_00013.png",
+    "case_id": "CALCIFICATION_P_00013_RIGHT_MLO_ab1",
+    "patient_id": "P_00013",
+    "abnormality_type": "CALCIFICATION",
+    "pathology": "BENIGN",
+    "image_view": "MLO",
+    "gt_bbox": [
+      298,
+      14,
+      340,
+      113
+    ],
+    "arm1_max_iou": 0.03716045642734525,
+    "arm5_max_iou": 0.08716981132075471,
+    "arm9_max_iou": 0.08716981132075471,
+    "top_proposals_v9": [
+      {
+        "rank": 1,
+        "bbox": [
+          0,
+          0,
+          64,
+          328
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.2
+      },
+      {
+        "rank": 2,
+        "bbox": [
+          354,
+          0,
+          454,
+          322
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.1936
+      },
+      {
+        "rank": 3,
+        "bbox": [
+          218,
+          0,
+          430,
+          225
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.1904
+      },
+      {
+        "rank": 4,
+        "bbox": [
+          379,
+          216,
+          441,
+          278
+        ],
+        "source": "calc_multiscale_tophat",
+        "score": 0.1727
+      },
+      {
+        "rank": 5,
+        "bbox": [
+          333,
+          177,
+          405,
+          249
+        ],
+        "source": "detail_laplacian_energy",
+        "score": 0.1574
+      }
+    ]
+  }
+]

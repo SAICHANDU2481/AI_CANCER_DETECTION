@@ -1,0 +1,47 @@
+{
+  "512x512": {
+    "resolution": [
+      512,
+      512
+    ],
+    "mean_latency_ms": 73.58,
+    "std_latency_ms": 2.42,
+    "peak_allocated_vram_mb": 654.96,
+    "peak_reserved_vram_mb": 786.0,
+    "gpu_device": "NVIDIA GeForce RTX 2050",
+    "batch_size": 1,
+    "amp_fp16": true,
+    "status": "SUPPORTED_SAFE",
+    "error": null
+  },
+  "768x768": {
+    "resolution": [
+      768,
+      768
+    ],
+    "mean_latency_ms": 162.05,
+    "std_latency_ms": 1.81,
+    "peak_allocated_vram_mb": 1296.34,
+    "peak_reserved_vram_mb": 1568.0,
+    "gpu_device": "NVIDIA GeForce RTX 2050",
+    "batch_size": 1,
+    "amp_fp16": true,
+    "status": "SUPPORTED_SAFE",
+    "error": null
+  },
+  "1024x1024": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "mean_latency_ms": 287.67,
+    "std_latency_ms": 2.75,
+    "peak_allocated_vram_mb": 2198.46,
+    "peak_reserved_vram_mb": 2562.0,
+    "gpu_device": "NVIDIA GeForce RTX 2050",
+    "batch_size": 1,
+    "amp_fp16": true,
+    "status": "SUPPORTED_SAFE",
+    "error": null
+  }
+}

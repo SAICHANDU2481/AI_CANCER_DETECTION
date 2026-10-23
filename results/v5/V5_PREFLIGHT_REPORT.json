@@ -1,0 +1,33 @@
+{
+  "check_1_md5": true,
+  "check_2_patient_isolation": true,
+  "check_3_test_quarantine": true,
+  "check_4_5_no_gt_input": true,
+  "check_6_tensor_dims": true,
+  "check_7_8_fwd_bwd": true,
+  "check_9_gradients": true,
+  "check_10_11_no_nan_inf": true,
+  "check_12_amp": true,
+  "check_13_vram_benchmarks": {
+    "512x512": {
+      "status": "PASSED",
+      "peak_vram_mb": 4239.849609375,
+      "time_s": 1.5314671993255615
+    },
+    "768x768": {
+      "status": "PASSED",
+      "peak_vram_mb": 6208.4990234375,
+      "time_s": 3.8156049251556396
+    },
+    "1024x1024": {
+      "status": "PASSED",
+      "peak_vram_mb": 8866.8662109375,
+      "time_s": 7.6688525676727295
+    }
+  },
+  "check_14_seed": true,
+  "check_15_16_17_topk": true,
+  "check_18_full_image": true,
+  "check_19_roi_branch": true,
+  "check_20_end_to_end": true
+}

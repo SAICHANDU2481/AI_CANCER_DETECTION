@@ -1,0 +1,22 @@
+{
+  "train_split": {
+    "total_records": 2501,
+    "missing_images": 0,
+    "missing_masks": 0,
+    "shape_mismatches": 56,
+    "empty_masks": 0,
+    "multi_abnormality_scans": 281,
+    "conflicting_label_scans": 66
+  },
+  "validation_split": {
+    "total_records": 541,
+    "missing_images": 0,
+    "missing_masks": 0,
+    "shape_mismatches": 12,
+    "empty_masks": 0,
+    "multi_abnormality_scans": 62,
+    "conflicting_label_scans": 11
+  },
+  "overlays_generated": 50,
+  "overlays_dir": "C:\\Users\\sys\\OneDrive\\Desktop\\AI_CANCER_DETECTION\\results\\v7\\data_integrity"
+}

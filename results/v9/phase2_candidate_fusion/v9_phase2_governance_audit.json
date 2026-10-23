@@ -1,0 +1,15 @@
+{
+  "phase": "V9 Phase 2",
+  "timestamp": "2026-10-03 19:55:52",
+  "governance_status": "PASSED",
+  "test_reads": 0,
+  "test_cache_absent": true,
+  "patient_leakage": 0,
+  "ukan_v6_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+  "random_seed": 42,
+  "primary_selection_rule": "Highest Validation Macro-F1",
+  "best_arm": "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)",
+  "best_val_macro_f1": 74.65,
+  "best_val_accuracy": 75.05,
+  "best_val_auc": 0.8303
+}

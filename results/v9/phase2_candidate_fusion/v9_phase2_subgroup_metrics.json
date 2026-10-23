@@ -1,0 +1,380 @@
+{
+  "Overall": {
+    "sample_count": 541,
+    "arms": {
+      "Arm A (Single Top-1 Local ROI)": {
+        "accuracy": 70.79,
+        "macro_f1": 69.51,
+        "sensitivity": 64.45,
+        "specificity": 74.85,
+        "roc_auc": 0.7267
+      },
+      "Arm B (K=3 Proposals + Frozen ViT)": {
+        "accuracy": 72.09,
+        "macro_f1": 69.96,
+        "sensitivity": 58.29,
+        "specificity": 80.91,
+        "roc_auc": 0.7632
+      },
+      "Arm C (K=5 Proposals + Frozen ViT)": {
+        "accuracy": 70.98,
+        "macro_f1": 69.87,
+        "sensitivity": 66.35,
+        "specificity": 73.94,
+        "roc_auc": 0.7638
+      },
+      "Arm D (K=5 + Candidate Attention)": {
+        "accuracy": 69.69,
+        "macro_f1": 69.18,
+        "sensitivity": 72.99,
+        "specificity": 67.58,
+        "roc_auc": 0.7728
+      },
+      "Arm E (K=5 + Attention + Full Mammo)": {
+        "accuracy": 75.42,
+        "macro_f1": 74.01,
+        "sensitivity": 66.82,
+        "specificity": 80.91,
+        "roc_auc": 0.8247
+      },
+      "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+        "accuracy": 75.6,
+        "macro_f1": 73.29,
+        "sensitivity": 59.24,
+        "specificity": 86.06,
+        "roc_auc": 0.7854
+      },
+      "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+        "accuracy": 75.05,
+        "macro_f1": 74.65,
+        "sensitivity": 80.09,
+        "specificity": 71.82,
+        "roc_auc": 0.8303
+      }
+    }
+  },
+  "Type: MASS": {
+    "sample_count": 244,
+    "arms": {
+      "Arm A (Single Top-1 Local ROI)": {
+        "accuracy": 65.16,
+        "macro_f1": 65.06,
+        "sensitivity": 64.6,
+        "specificity": 65.65,
+        "roc_auc": 0.6916
+      },
+      "Arm B (K=3 Proposals + Frozen ViT)": {
+        "accuracy": 68.03,
+        "macro_f1": 67.06,
+        "sensitivity": 54.87,
+        "specificity": 79.39,
+        "roc_auc": 0.7359
+      },
+      "Arm C (K=5 Proposals + Frozen ViT)": {
+        "accuracy": 66.8,
+        "macro_f1": 66.6,
+        "sensitivity": 63.72,
+        "specificity": 69.47,
+        "roc_auc": 0.7403
+      },
+      "Arm D (K=5 + Candidate Attention)": {
+        "accuracy": 69.26,
+        "macro_f1": 69.24,
+        "sensitivity": 77.88,
+        "specificity": 61.83,
+        "roc_auc": 0.755
+      },
+      "Arm E (K=5 + Attention + Full Mammo)": {
+        "accuracy": 74.59,
+        "macro_f1": 74.53,
+        "sensitivity": 75.22,
+        "specificity": 74.05,
+        "roc_auc": 0.8107
+      },
+      "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+        "accuracy": 73.77,
+        "macro_f1": 73.31,
+        "sensitivity": 65.49,
+        "specificity": 80.92,
+        "roc_auc": 0.8015
+      },
+      "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+        "accuracy": 75.41,
+        "macro_f1": 75.37,
+        "sensitivity": 85.84,
+        "specificity": 66.41,
+        "roc_auc": 0.8308
+      }
+    }
+  },
+  "Type: CALCIFICATION": {
+    "sample_count": 297,
+    "arms": {
+      "Arm A (Single Top-1 Local ROI)": {
+        "accuracy": 75.42,
+        "macro_f1": 72.42,
+        "sensitivity": 64.29,
+        "specificity": 80.9,
+        "roc_auc": 0.7454
+      },
+      "Arm B (K=3 Proposals + Frozen ViT)": {
+        "accuracy": 75.42,
+        "macro_f1": 72.13,
+        "sensitivity": 62.24,
+        "specificity": 81.91,
+        "roc_auc": 0.7808
+      },
+      "Arm C (K=5 Proposals + Frozen ViT)": {
+        "accuracy": 74.41,
+        "macro_f1": 72.13,
+        "sensitivity": 69.39,
+        "specificity": 76.88,
+        "roc_auc": 0.7837
+      },
+      "Arm D (K=5 + Candidate Attention)": {
+        "accuracy": 70.03,
+        "macro_f1": 67.93,
+        "sensitivity": 67.35,
+        "specificity": 71.36,
+        "roc_auc": 0.7789
+      },
+      "Arm E (K=5 + Attention + Full Mammo)": {
+        "accuracy": 76.09,
+        "macro_f1": 71.96,
+        "sensitivity": 57.14,
+        "specificity": 85.43,
+        "roc_auc": 0.8239
+      },
+      "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+        "accuracy": 77.1,
+        "macro_f1": 71.98,
+        "sensitivity": 52.04,
+        "specificity": 89.45,
+        "roc_auc": 0.7588
+      },
+      "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+        "accuracy": 74.75,
+        "macro_f1": 72.88,
+        "sensitivity": 73.47,
+        "specificity": 75.38,
+        "roc_auc": 0.822
+      }
+    }
+  },
+  "Pathology: BENIGN": {
+    "sample_count": 209,
+    "arms": {
+      "Arm A (Single Top-1 Local ROI)": {
+        "accuracy": 68.42,
+        "macro_f1": 40.62,
+        "sensitivity": 0.0,
+        "specificity": 68.42,
+        "roc_auc": NaN
+      },
+      "Arm B (K=3 Proposals + Frozen ViT)": {
+        "accuracy": 76.56,
+        "macro_f1": 43.36,
+        "sensitivity": 0.0,
+        "specificity": 76.56,
+        "roc_auc": NaN
+      },
+      "Arm C (K=5 Proposals + Frozen ViT)": {
+        "accuracy": 64.59,
+        "macro_f1": 39.24,
+        "sensitivity": 0.0,
+        "specificity": 64.59,
+        "roc_auc": NaN
+      },
+      "Arm D (K=5 + Candidate Attention)": {
+        "accuracy": 59.33,
+        "macro_f1": 37.24,
+        "sensitivity": 0.0,
+        "specificity": 59.33,
+        "roc_auc": NaN
+      },
+      "Arm E (K=5 + Attention + Full Mammo)": {
+        "accuracy": 73.21,
+        "macro_f1": 42.27,
+        "sensitivity": 0.0,
+        "specificity": 73.21,
+        "roc_auc": NaN
+      },
+      "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+        "accuracy": 80.86,
+        "macro_f1": 44.71,
+        "sensitivity": 0.0,
+        "specificity": 80.86,
+        "roc_auc": NaN
+      },
+      "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+        "accuracy": 59.33,
+        "macro_f1": 37.24,
+        "sensitivity": 0.0,
+        "specificity": 59.33,
+        "roc_auc": NaN
+      }
+    }
+  },
+  "Pathology: MALIGNANT": {
+    "sample_count": 211,
+    "arms": {
+      "Arm A (Single Top-1 Local ROI)": {
+        "accuracy": 64.45,
+        "macro_f1": 39.19,
+        "sensitivity": 64.45,
+        "specificity": 0.0,
+        "roc_auc": NaN
+      },
+      "Arm B (K=3 Proposals + Frozen ViT)": {
+        "accuracy": 58.29,
+        "macro_f1": 36.83,
+        "sensitivity": 58.29,
+        "specificity": 0.0,
+        "roc_auc": NaN
+      },
+      "Arm C (K=5 Proposals + Frozen ViT)": {
+        "accuracy": 66.35,
+        "macro_f1": 39.89,
+        "sensitivity": 66.35,
+        "specificity": 0.0,
+        "roc_auc": NaN
+      },
+      "Arm D (K=5 + Candidate Attention)": {
+        "accuracy": 72.99,
+        "macro_f1": 42.19,
+        "sensitivity": 72.99,
+        "specificity": 0.0,
+        "roc_auc": NaN
+      },
+      "Arm E (K=5 + Attention + Full Mammo)": {
+        "accuracy": 66.82,
+        "macro_f1": 40.06,
+        "sensitivity": 66.82,
+        "specificity": 0.0,
+        "roc_auc": NaN
+      },
+      "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+        "accuracy": 59.24,
+        "macro_f1": 37.2,
+        "sensitivity": 59.24,
+        "specificity": 0.0,
+        "roc_auc": NaN
+      },
+      "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+        "accuracy": 80.09,
+        "macro_f1": 44.47,
+        "sensitivity": 80.09,
+        "specificity": 0.0,
+        "roc_auc": NaN
+      }
+    }
+  },
+  "View: CC": {
+    "sample_count": 255,
+    "arms": {
+      "Arm A (Single Top-1 Local ROI)": {
+        "accuracy": 72.94,
+        "macro_f1": 71.95,
+        "sensitivity": 70.41,
+        "specificity": 74.52,
+        "roc_auc": 0.7353
+      },
+      "Arm B (K=3 Proposals + Frozen ViT)": {
+        "accuracy": 70.98,
+        "macro_f1": 69.22,
+        "sensitivity": 61.22,
+        "specificity": 77.07,
+        "roc_auc": 0.739
+      },
+      "Arm C (K=5 Proposals + Frozen ViT)": {
+        "accuracy": 69.41,
+        "macro_f1": 68.03,
+        "sensitivity": 63.27,
+        "specificity": 73.25,
+        "roc_auc": 0.7571
+      },
+      "Arm D (K=5 + Candidate Attention)": {
+        "accuracy": 70.2,
+        "macro_f1": 69.69,
+        "sensitivity": 74.49,
+        "specificity": 67.52,
+        "roc_auc": 0.7877
+      },
+      "Arm E (K=5 + Attention + Full Mammo)": {
+        "accuracy": 74.9,
+        "macro_f1": 73.48,
+        "sensitivity": 67.35,
+        "specificity": 79.62,
+        "roc_auc": 0.8237
+      },
+      "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+        "accuracy": 73.33,
+        "macro_f1": 70.95,
+        "sensitivity": 58.16,
+        "specificity": 82.8,
+        "roc_auc": 0.7772
+      },
+      "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+        "accuracy": 75.29,
+        "macro_f1": 74.85,
+        "sensitivity": 80.61,
+        "specificity": 71.97,
+        "roc_auc": 0.8238
+      }
+    }
+  },
+  "View: MLO": {
+    "sample_count": 286,
+    "arms": {
+      "Arm A (Single Top-1 Local ROI)": {
+        "accuracy": 68.88,
+        "macro_f1": 67.29,
+        "sensitivity": 59.29,
+        "specificity": 75.14,
+        "roc_auc": 0.7247
+      },
+      "Arm B (K=3 Proposals + Frozen ViT)": {
+        "accuracy": 73.08,
+        "macro_f1": 70.6,
+        "sensitivity": 55.75,
+        "specificity": 84.39,
+        "roc_auc": 0.7884
+      },
+      "Arm C (K=5 Proposals + Frozen ViT)": {
+        "accuracy": 72.38,
+        "macro_f1": 71.47,
+        "sensitivity": 69.03,
+        "specificity": 74.57,
+        "roc_auc": 0.7739
+      },
+      "Arm D (K=5 + Candidate Attention)": {
+        "accuracy": 69.23,
+        "macro_f1": 68.74,
+        "sensitivity": 71.68,
+        "specificity": 67.63,
+        "roc_auc": 0.7597
+      },
+      "Arm E (K=5 + Attention + Full Mammo)": {
+        "accuracy": 75.87,
+        "macro_f1": 74.47,
+        "sensitivity": 66.37,
+        "specificity": 82.08,
+        "roc_auc": 0.8262
+      },
+      "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+        "accuracy": 77.62,
+        "macro_f1": 75.4,
+        "sensitivity": 60.18,
+        "specificity": 89.02,
+        "roc_auc": 0.7877
+      },
+      "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+        "accuracy": 74.83,
+        "macro_f1": 74.46,
+        "sensitivity": 79.65,
+        "specificity": 71.68,
+        "roc_auc": 0.8366
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Arm,Best Epoch,Accuracy (%),Macro-F1 (%),ROC-AUC,PR-AUC,Sensitivity/Recall (%),Specificity (%),Precision (%),Brier Score,ECE (%),TN,FP,FN,TP
+Arm A (Locked V6 Arm-C Reference),Historical (Locked),71.9,71.05,0.7787,0.6912,68.25,74.24,65.48,0.1824,6.84,0,0,0,0
+Arm B (Arm E + Frozen ViT),7,72.09,71.81,0.7764,0.6504,79.62,67.27,60.87,0.1903,8.87,222,108,43,168
+Arm C (Arm E + Fusion Head Training),5,70.43,70.29,0.7587,0.6295,81.52,63.33,58.7,0.198,9.3,209,121,39,172
+Arm D (Arm E + Last 2 ViT Blocks),21,75.23,74.06,0.7935,0.6927,69.19,79.09,67.91,0.2132,18.73,261,69,65,146
+Arm E2 (Arm E K=5 + Last 2 ViT Blocks),4,72.09,71.59,0.7983,0.681,75.36,70.0,61.63,0.1765,3.34,231,99,52,159
+Arm F (Arm E + Last 4 ViT Blocks),14,75.97,75.36,0.8153,0.6903,77.25,75.15,66.53,0.2115,18.7,248,82,48,163

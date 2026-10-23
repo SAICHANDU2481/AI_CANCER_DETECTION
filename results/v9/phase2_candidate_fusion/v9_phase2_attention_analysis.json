@@ -1,0 +1,86 @@
+{
+  "Arm D (K=5 + Candidate Attention)": {
+    "num_candidates": 5,
+    "mean_weights_by_rank": [
+      0.2504,
+      0.2182,
+      0.1961,
+      0.1888,
+      0.1464
+    ],
+    "median_weights_by_rank": [
+      0.1731,
+      0.1554,
+      0.135,
+      0.1291,
+      0.0918
+    ],
+    "mean_entropy": 1.2109,
+    "max_possible_entropy": 1.6094,
+    "normalized_entropy_pct": 75.24,
+    "attention_collapse_detected": false
+  },
+  "Arm E (K=5 + Attention + Full Mammo)": {
+    "num_candidates": 5,
+    "mean_weights_by_rank": [
+      0.2377,
+      0.2008,
+      0.2065,
+      0.1912,
+      0.1639
+    ],
+    "median_weights_by_rank": [
+      0.1749,
+      0.1463,
+      0.1376,
+      0.125,
+      0.1007
+    ],
+    "mean_entropy": 1.2222,
+    "max_possible_entropy": 1.6094,
+    "normalized_entropy_pct": 75.94,
+    "attention_collapse_detected": false
+  },
+  "Arm F (K=5 + Attention + Mammo + Calc Patch)": {
+    "num_candidates": 5,
+    "mean_weights_by_rank": [
+      0.2197,
+      0.1967,
+      0.1918,
+      0.2048,
+      0.187
+    ],
+    "median_weights_by_rank": [
+      0.1463,
+      0.1336,
+      0.1344,
+      0.1355,
+      0.1258
+    ],
+    "mean_entropy": 1.2174,
+    "max_possible_entropy": 1.6094,
+    "normalized_entropy_pct": 75.64,
+    "attention_collapse_detected": false
+  },
+  "Arm G (K=5 + Attention + Mammo + Calc + Context ROI)": {
+    "num_candidates": 5,
+    "mean_weights_by_rank": [
+      0.27,
+      0.1925,
+      0.1744,
+      0.1731,
+      0.1901
+    ],
+    "median_weights_by_rank": [
+      0.1838,
+      0.1245,
+      0.0898,
+      0.0767,
+      0.0915
+    ],
+    "mean_entropy": 1.0329,
+    "max_possible_entropy": 1.6094,
+    "normalized_entropy_pct": 64.18,
+    "attention_collapse_detected": false
+  }
+}

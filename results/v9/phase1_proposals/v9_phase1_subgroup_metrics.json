@@ -1,0 +1,352 @@
+{
+  "Overall": {
+    "sample_count": 541,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 46.77,
+        "recall_k5_iou30": 20.89,
+        "recall_k5_iou50": 4.25,
+        "containment_k5": 72.27
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 51.76,
+        "recall_k5_iou30": 22.92,
+        "recall_k5_iou50": 7.02,
+        "containment_k5": 66.54
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 54.16,
+        "recall_k5_iou30": 28.28,
+        "recall_k5_iou50": 7.58,
+        "containment_k5": 64.33
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 20.7,
+        "recall_k5_iou30": 5.55,
+        "recall_k5_iou50": 1.29,
+        "containment_k5": 59.89
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 48.98,
+        "recall_k5_iou30": 23.48,
+        "recall_k5_iou50": 6.84,
+        "containment_k5": 84.47
+      }
+    }
+  },
+  "Type: MASS": {
+    "sample_count": 244,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 58.2,
+        "recall_k5_iou30": 26.23,
+        "recall_k5_iou50": 4.1,
+        "containment_k5": 80.74
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 67.21,
+        "recall_k5_iou30": 28.69,
+        "recall_k5_iou50": 6.15,
+        "containment_k5": 80.33
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 72.13,
+        "recall_k5_iou30": 38.93,
+        "recall_k5_iou50": 7.79,
+        "containment_k5": 79.1
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 14.75,
+        "recall_k5_iou30": 3.28,
+        "recall_k5_iou50": 0.41,
+        "containment_k5": 59.84
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 64.75,
+        "recall_k5_iou30": 31.15,
+        "recall_k5_iou50": 5.74,
+        "containment_k5": 88.93
+      }
+    }
+  },
+  "Type: CALCIFICATION": {
+    "sample_count": 297,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 37.37,
+        "recall_k5_iou30": 16.5,
+        "recall_k5_iou50": 4.38,
+        "containment_k5": 65.32
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 39.06,
+        "recall_k5_iou30": 18.18,
+        "recall_k5_iou50": 7.74,
+        "containment_k5": 55.22
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 39.39,
+        "recall_k5_iou30": 19.53,
+        "recall_k5_iou50": 7.41,
+        "containment_k5": 52.19
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 25.59,
+        "recall_k5_iou30": 7.41,
+        "recall_k5_iou50": 2.02,
+        "containment_k5": 59.93
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 36.03,
+        "recall_k5_iou30": 17.17,
+        "recall_k5_iou50": 7.74,
+        "containment_k5": 80.81
+      }
+    }
+  },
+  "Pathology: BENIGN": {
+    "sample_count": 330,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 34.85,
+        "recall_k5_iou30": 12.42,
+        "recall_k5_iou50": 2.12,
+        "containment_k5": 69.39
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 41.82,
+        "recall_k5_iou30": 16.06,
+        "recall_k5_iou50": 4.85,
+        "containment_k5": 59.7
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 42.73,
+        "recall_k5_iou30": 19.39,
+        "recall_k5_iou50": 5.45,
+        "containment_k5": 57.88
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 16.97,
+        "recall_k5_iou30": 3.64,
+        "recall_k5_iou50": 0.3,
+        "containment_k5": 61.21
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 37.58,
+        "recall_k5_iou30": 13.94,
+        "recall_k5_iou50": 3.64,
+        "containment_k5": 80.61
+      }
+    }
+  },
+  "Pathology: MALIGNANT": {
+    "sample_count": 211,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 65.4,
+        "recall_k5_iou30": 34.12,
+        "recall_k5_iou50": 7.58,
+        "containment_k5": 76.78
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 67.3,
+        "recall_k5_iou30": 33.65,
+        "recall_k5_iou50": 10.43,
+        "containment_k5": 77.25
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 72.04,
+        "recall_k5_iou30": 42.18,
+        "recall_k5_iou50": 10.9,
+        "containment_k5": 74.41
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 26.54,
+        "recall_k5_iou30": 8.53,
+        "recall_k5_iou50": 2.84,
+        "containment_k5": 57.82
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 66.82,
+        "recall_k5_iou30": 38.39,
+        "recall_k5_iou50": 11.85,
+        "containment_k5": 90.52
+      }
+    }
+  },
+  "View: CC": {
+    "sample_count": 255,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 48.63,
+        "recall_k5_iou30": 23.53,
+        "recall_k5_iou50": 4.31,
+        "containment_k5": 78.82
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 51.37,
+        "recall_k5_iou30": 21.57,
+        "recall_k5_iou50": 5.88,
+        "containment_k5": 71.37
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 54.12,
+        "recall_k5_iou30": 28.24,
+        "recall_k5_iou50": 6.27,
+        "containment_k5": 69.41
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 23.14,
+        "recall_k5_iou30": 5.88,
+        "recall_k5_iou50": 1.18,
+        "containment_k5": 57.25
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 49.8,
+        "recall_k5_iou30": 21.96,
+        "recall_k5_iou50": 5.1,
+        "containment_k5": 83.92
+      }
+    }
+  },
+  "View: MLO": {
+    "sample_count": 286,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 45.1,
+        "recall_k5_iou30": 18.53,
+        "recall_k5_iou50": 4.2,
+        "containment_k5": 66.43
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 52.1,
+        "recall_k5_iou30": 24.13,
+        "recall_k5_iou50": 8.04,
+        "containment_k5": 62.24
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 54.2,
+        "recall_k5_iou30": 28.32,
+        "recall_k5_iou50": 8.74,
+        "containment_k5": 59.79
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 18.53,
+        "recall_k5_iou30": 5.24,
+        "recall_k5_iou50": 1.4,
+        "containment_k5": 62.24
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 48.25,
+        "recall_k5_iou30": 24.83,
+        "recall_k5_iou50": 8.39,
+        "containment_k5": 84.97
+      }
+    }
+  },
+  "Size: SMALL (<1k px)": {
+    "sample_count": 271,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 19.19,
+        "recall_k5_iou30": 7.01,
+        "recall_k5_iou50": 0.37,
+        "containment_k5": 73.06
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 32.47,
+        "recall_k5_iou30": 11.44,
+        "recall_k5_iou50": 1.11,
+        "containment_k5": 66.42
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 35.06,
+        "recall_k5_iou30": 14.02,
+        "recall_k5_iou50": 1.11,
+        "containment_k5": 63.47
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 7.01,
+        "recall_k5_iou30": 0.37,
+        "recall_k5_iou50": 0.0,
+        "containment_k5": 59.04
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 31.73,
+        "recall_k5_iou30": 9.23,
+        "recall_k5_iou50": 0.74,
+        "containment_k5": 81.92
+      }
+    }
+  },
+  "Size: MEDIUM (1k-5k px)": {
+    "sample_count": 213,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 68.54,
+        "recall_k5_iou30": 25.82,
+        "recall_k5_iou50": 4.23,
+        "containment_k5": 75.59
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 65.73,
+        "recall_k5_iou30": 26.76,
+        "recall_k5_iou50": 9.39,
+        "containment_k5": 69.01
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 68.54,
+        "recall_k5_iou30": 35.21,
+        "recall_k5_iou50": 10.8,
+        "containment_k5": 67.61
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 28.64,
+        "recall_k5_iou30": 7.98,
+        "recall_k5_iou50": 0.94,
+        "containment_k5": 62.91
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 59.15,
+        "recall_k5_iou30": 30.52,
+        "recall_k5_iou50": 7.04,
+        "containment_k5": 86.38
+      }
+    }
+  },
+  "Size: LARGE (>5k px)": {
+    "sample_count": 57,
+    "arms": {
+      "Arm 1 (Single-Scale 512 Baseline)": {
+        "recall_k5_iou10": 96.49,
+        "recall_k5_iou30": 68.42,
+        "recall_k5_iou50": 22.81,
+        "containment_k5": 56.14
+      },
+      "Arm 2 (Single-Scale 768 Baseline)": {
+        "recall_k5_iou10": 91.23,
+        "recall_k5_iou30": 63.16,
+        "recall_k5_iou50": 26.32,
+        "containment_k5": 57.89
+      },
+      "Arm 4 (Multi-Scale 512+768 Naive NMS)": {
+        "recall_k5_iou10": 91.23,
+        "recall_k5_iou30": 70.18,
+        "recall_k5_iou50": 26.32,
+        "containment_k5": 56.14
+      },
+      "Arm 5 (Calcification Pathway Alone)": {
+        "recall_k5_iou10": 56.14,
+        "recall_k5_iou30": 21.05,
+        "recall_k5_iou50": 8.77,
+        "containment_k5": 52.63
+      },
+      "Arm 9 (V9 Full Multi-Source + Ranking)": {
+        "recall_k5_iou10": 92.98,
+        "recall_k5_iou30": 64.91,
+        "recall_k5_iou50": 35.09,
+        "containment_k5": 89.47
+      }
+    }
+  }
+}

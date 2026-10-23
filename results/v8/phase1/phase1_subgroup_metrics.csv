@@ -1,0 +1,61 @@
+Subgroup,Sample Count (N),Arm,Recall@5 (IoU>=0.10),Recall@5 (IoU>=0.30),Recall@5 (IoU>=0.50),Containment@5
+Overall,541,Arm A (V6 512),46.4,26.06,10.17,72.27
+Overall,541,Arm B (V6 768),52.31,28.84,13.31,63.22
+Overall,541,Arm D3 (Top-Hat),16.82,4.99,1.11,41.96
+Overall,541,Arm E (V6 + High-Res),54.34,33.64,17.38,61.92
+Overall,541,Arm G (V6 + High-Res + Calc),50.83,32.16,16.82,61.0
+Overall,541,Arm I (Fixed Grid),15.16,3.51,0.92,94.64
+Type: MASS,244,Arm A (V6 512),56.56,35.25,17.62,79.1
+Type: MASS,244,Arm B (V6 768),70.08,40.57,19.26,77.05
+Type: MASS,244,Arm D3 (Top-Hat),13.93,2.05,0.0,41.8
+Type: MASS,244,Arm E (V6 + High-Res),72.54,49.59,27.46,76.23
+Type: MASS,244,Arm G (V6 + High-Res + Calc),71.72,48.77,27.05,79.51
+Type: MASS,244,Arm I (Fixed Grid),6.15,0.0,0.0,97.13
+Type: CALCIFICATION,297,Arm A (V6 512),38.05,18.52,4.04,66.67
+Type: CALCIFICATION,297,Arm B (V6 768),37.71,19.19,8.42,51.85
+Type: CALCIFICATION,297,Arm D3 (Top-Hat),19.19,7.41,2.02,42.09
+Type: CALCIFICATION,297,Arm E (V6 + High-Res),39.39,20.54,9.09,50.17
+Type: CALCIFICATION,297,Arm G (V6 + High-Res + Calc),33.67,18.52,8.42,45.79
+Type: CALCIFICATION,297,Arm I (Fixed Grid),22.56,6.4,1.68,92.59
+Pathology: BENIGN,330,Arm A (V6 512),35.45,16.06,6.97,69.39
+Pathology: BENIGN,330,Arm B (V6 768),42.12,21.21,10.0,56.36
+Pathology: BENIGN,330,Arm D3 (Top-Hat),12.73,3.03,0.3,39.7
+Pathology: BENIGN,330,Arm E (V6 + High-Res),43.64,24.55,13.03,56.97
+Pathology: BENIGN,330,Arm G (V6 + High-Res + Calc),40.61,22.73,12.42,54.85
+Pathology: BENIGN,330,Arm I (Fixed Grid),9.39,1.52,0.3,96.06
+Pathology: MALIGNANT,211,Arm A (V6 512),63.51,41.71,15.17,76.78
+Pathology: MALIGNANT,211,Arm B (V6 768),68.25,40.76,18.48,73.93
+Pathology: MALIGNANT,211,Arm D3 (Top-Hat),23.22,8.06,2.37,45.5
+Pathology: MALIGNANT,211,Arm E (V6 + High-Res),71.09,47.87,24.17,69.67
+Pathology: MALIGNANT,211,Arm G (V6 + High-Res + Calc),66.82,46.92,23.7,70.62
+Pathology: MALIGNANT,211,Arm I (Fixed Grid),24.17,6.64,1.9,92.42
+View: CC,255,Arm A (V6 512),48.63,29.02,10.98,79.22
+View: CC,255,Arm B (V6 768),52.55,28.24,12.94,68.63
+View: CC,255,Arm D3 (Top-Hat),15.69,5.1,1.57,30.59
+View: CC,255,Arm E (V6 + High-Res),54.12,33.33,17.25,66.27
+View: CC,255,Arm G (V6 + High-Res + Calc),54.9,32.16,16.86,60.0
+View: CC,255,Arm I (Fixed Grid),15.29,3.92,0.78,92.16
+View: MLO,286,Arm A (V6 512),44.41,23.43,9.44,66.08
+View: MLO,286,Arm B (V6 768),52.1,29.37,13.64,58.39
+View: MLO,286,Arm D3 (Top-Hat),17.83,4.9,0.7,52.1
+View: MLO,286,Arm E (V6 + High-Res),54.55,33.92,17.48,58.04
+View: MLO,286,Arm G (V6 + High-Res + Calc),47.2,32.17,16.78,61.89
+View: MLO,286,Arm I (Fixed Grid),15.03,3.15,1.05,96.85
+Size: SMALL (<1k px),271,Arm A (V6 512),19.19,14.39,8.49,71.59
+Size: SMALL (<1k px),271,Arm B (V6 768),36.53,23.25,11.81,63.47
+Size: SMALL (<1k px),271,Arm D3 (Top-Hat),5.54,0.74,0.0,42.8
+Size: SMALL (<1k px),271,Arm E (V6 + High-Res),38.38,26.57,14.76,61.99
+Size: SMALL (<1k px),271,Arm G (V6 + High-Res + Calc),38.01,25.46,14.39,60.89
+Size: SMALL (<1k px),271,Arm I (Fixed Grid),0.0,0.0,0.0,94.83
+Size: MEDIUM (1k-5k px),213,Arm A (V6 512),68.54,30.52,9.86,76.53
+Size: MEDIUM (1k-5k px),213,Arm B (V6 768),63.38,28.17,11.27,65.26
+Size: MEDIUM (1k-5k px),213,Arm D3 (Top-Hat),20.66,5.16,0.47,40.85
+Size: MEDIUM (1k-5k px),213,Arm E (V6 + High-Res),66.2,36.15,17.37,64.32
+Size: MEDIUM (1k-5k px),213,Arm G (V6 + High-Res + Calc),58.69,34.74,16.9,62.44
+Size: MEDIUM (1k-5k px),213,Arm I (Fixed Grid),12.68,0.47,0.47,93.43
+Size: LARGE (>5k px),57,Arm A (V6 512),92.98,64.91,19.3,59.65
+Size: LARGE (>5k px),57,Arm B (V6 768),85.96,57.89,28.07,54.39
+Size: LARGE (>5k px),57,Arm D3 (Top-Hat),56.14,24.56,8.77,42.11
+Size: LARGE (>5k px),57,Arm E (V6 + High-Res),85.96,57.89,29.82,52.63
+Size: LARGE (>5k px),57,Arm G (V6 + High-Res + Calc),82.46,54.39,28.07,56.14
+Size: LARGE (>5k px),57,Arm I (Fixed Grid),96.49,31.58,7.02,98.25

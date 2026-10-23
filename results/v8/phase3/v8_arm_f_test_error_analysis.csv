@@ -1,0 +1,8 @@
+Category,Count,Percentage
+1. Correct Classification + Good Proposal (IoU >= 0.30),158,30.10%
+2. Correct Classification + Weak Proposal (IoU < 0.30),181,34.48%
+3. Malignant False Negative + Poor Proposal (IoU < 0.30),48,9.14%
+4. Malignant False Negative + Good Proposal (IoU >= 0.30),25,4.76%
+5. Benign False Positive + Poor Proposal (IoU < 0.30),65,12.38%
+6. Benign False Positive + Good Proposal (IoU >= 0.30),48,9.14%
+7. Fallback / Zero-Proposal Pathway,0,0.00%

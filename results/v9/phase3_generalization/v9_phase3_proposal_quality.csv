@@ -1,0 +1,5 @@
+Proposal Quality Stratum,Sample Count,Accuracy (%),Macro-F1 (%),ROC-AUC,Sensitivity (%),Specificity (%),Attention Entropy
+IoU < 0.10,135,73.33,68.89,0.805,68.57,75.0,0.994
+0.10 <= IoU < 0.30,135,78.52,78.21,0.868,78.95,78.21,1.0597
+0.30 <= IoU < 0.50,135,70.37,70.37,0.7763,76.19,65.28,1.0323
+IoU >= 0.50,136,77.94,77.94,0.8522,92.86,67.5,1.0453

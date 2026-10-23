@@ -1,0 +1,7 @@
+{
+  "status": "PASSED",
+  "evaluated_scans": 10,
+  "max_probability_difference": 0.0,
+  "max_logit_difference": 0.0,
+  "is_deterministic": true
+}

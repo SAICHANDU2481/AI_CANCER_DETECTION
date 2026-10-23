@@ -1,0 +1,9 @@
+category,count,pct,pct_of_missed
+V6 Baseline (Arm A) Total Recovered (Top-5 IoU>=0.1),99,18.3,
+V6 Baseline (Arm A) Total Missed (Fallback / Missed),442,81.7,
+V6 Missed -> Recovered by High-Res (Arm B),82,,18.55
+V6 Missed -> Recovered by Calc Detectors (Arm C),57,,12.9
+V6 Missed -> Recovered by Arm F (V6 + High-Res + Calc),100,,22.62
+V6 Missed -> Recovered by Arm G (All + Context),100,,22.62
+Shared Recovery (V6 AND High-Res AND Calc),20,3.7,
+Total Unique Lesions Recovered by Arm G,194,35.86,

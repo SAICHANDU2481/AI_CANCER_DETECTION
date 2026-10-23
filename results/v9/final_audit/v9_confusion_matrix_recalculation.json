@@ -1,0 +1,18 @@
+{
+  "N": 525,
+  "TN": 166,
+  "FP": 144,
+  "FN": 51,
+  "TP": 164,
+  "Accuracy": 62.86,
+  "Precision": 53.25,
+  "Sensitivity_Recall": 76.28,
+  "Specificity": 53.55,
+  "Binary_F1": 62.72,
+  "Macro_F1": 62.86,
+  "ROC_AUC": 0.7046,
+  "PR_AUC": 0.6129,
+  "Brier_Score": 0.2346,
+  "ECE_15bins": 13.4,
+  "matches_reported_exactly": true
+}

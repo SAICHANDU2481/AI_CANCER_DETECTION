@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": "CALCIFICATION_P_01830_RIGHT_CC_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "CALCIFICATION_P_00793_LEFT_CC_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "MASS_P_00534_LEFT_MLO_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "CALCIFICATION_P_00858_LEFT_MLO_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "MASS_P_01768_LEFT_CC_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "CALCIFICATION_P_00799_RIGHT_CC_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "MASS_P_00015_LEFT_MLO_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "MASS_P_01753_RIGHT_CC_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "MASS_P_00411_RIGHT_MLO_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  },
+  {
+    "case_id": "MASS_P_01000_RIGHT_MLO_ab1",
+    "max_diff": 0.0,
+    "deterministic": true
+  }
+]

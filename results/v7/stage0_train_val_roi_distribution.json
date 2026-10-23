@@ -1,0 +1,36 @@
+{
+  "train": {
+    "total_records": 2501,
+    "machine_roi_count": 403,
+    "machine_roi_rate": 0.16113554578168732,
+    "fallback_count": 2098,
+    "fallback_rate": 0.8388644542183127,
+    "mean_dice": 0.25817139522431853,
+    "mean_iou": 0.18648943708740479,
+    "source_breakdown": {
+      "fallback": 2500,
+      "machine_cc": 1
+    }
+  },
+  "validation": {
+    "total_records": 541,
+    "machine_roi_count": 86,
+    "machine_roi_rate": 0.1589648798521257,
+    "fallback_count": 455,
+    "fallback_rate": 0.8410351201478743,
+    "mean_dice": 0.19694582790182347,
+    "mean_iou": 0.139336689279923,
+    "source_breakdown": {
+      "fallback": 541
+    }
+  },
+  "comparison": {
+    "chi2_stat": 0.003610896876992314,
+    "chi2_p_value": 0.9520833660852549,
+    "ks_dice_stat": 0.117595845210899,
+    "ks_dice_p_value": 8.082852417624015e-06,
+    "ks_iou_stat": 0.12303618293902402,
+    "ks_iou_p_value": 2.497123162044456e-06,
+    "mismatch_detected": true
+  }
+}

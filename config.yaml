@@ -1,0 +1,146 @@
+# ==============================================================================
+# Advanced Breast Cancer Diagnosis Research Configuration
+# Pipeline: Wiener Filter -> CLAHE -> U-KAN -> ROI -> ViT -> Explainability
+# ==============================================================================
+
+project:
+  name: "Advanced Breast Cancer Diagnosis (Wiener + U-KAN + ViT)"
+  version: "1.0.0"
+  seed: 42
+  device: "auto" # "auto", "cuda", or "cpu"
+  num_workers: 2
+
+# ------------------------------------------------------------------------------
+# 1. Dataset & Patient-Level Splitting
+# ------------------------------------------------------------------------------
+dataset:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  train_dir: "data/train"
+  val_dir: "data/val"
+  test_dir: "data/test"
+  metadata_csv: "data/processed/metadata.csv"
+  
+  # Patient-level split ratios (prevents cross-view / patient data leakage)
+  split_ratios:
+    train: 0.70
+    val: 0.15
+    test: 0.15
+    
+  # Class mapping: 0=Benign, 1=Malignant
+  class_mapping:
+    BENIGN: 0
+    BENIGN_WITHOUT_CALLBACK: 0
+    MALIGNANT: 1
+    0: "Benign"
+    1: "Malignant"
+
+# ------------------------------------------------------------------------------
+# 2. Image Preprocessing & Wiener Filtering
+# ------------------------------------------------------------------------------
+preprocessing:
+  target_size: [512, 512] # [height, width] for segmentation input
+  
+  # Wiener Filter settings
+  wiener:
+    window_size: [5, 5]
+    noise_variance: null # null = auto-estimate from local variance
+    mode: "local" # "local" (local adaptive spatial filter) or "frequency"
+    
+  # CLAHE Contrast Enhancement
+  clahe:
+    clip_limit: 2.5
+    tile_grid_size: [8, 8]
+    
+  # Normalization
+  normalization:
+    percentile_clip: [0.5, 99.5] # Clip hot/dead pixels
+    target_range: [0.0, 1.0]
+
+# ------------------------------------------------------------------------------
+# 3. U-KAN Segmentation Model
+# ------------------------------------------------------------------------------
+segmentation:
+  architecture: "U-KAN"
+  img_size: 512
+  in_channels: 1
+  out_channels: 1
+  init_features: 32
+  
+  # KAN (Kolmogorov-Arnold Network) parameters
+  kan:
+    grid_size: 5
+    spline_order: 3
+    base_activation: "silu"
+    grid_range: [-1.0, 1.0]
+    
+  # Training hyperparameters
+  training:
+    batch_size: 8
+    epochs: 15
+    lr: 0.0003
+    min_lr: 1e-6
+    weight_decay: 0.0001
+    patience: 10 # Early stopping patience
+    loss:
+      dice_weight: 0.6
+      bce_weight: 0.4
+    mixed_precision: true
+    
+  checkpoint_path: "models/ukan_best.pth"
+
+# ------------------------------------------------------------------------------
+# 4. ROI Extraction & Lesion Localizer
+# ------------------------------------------------------------------------------
+roi_extraction:
+  mask_threshold: 0.5
+  min_lesion_area_pixels: 50
+  margin_ratio: 0.20 # 20% margin around bounding box for context
+  target_roi_size: [224, 224] # ViT input resolution
+  fallback_strategy: "center_crop" # fallback if no lesion detected
+
+# ------------------------------------------------------------------------------
+# 5. Vision Transformer (ViT) Classification
+# ------------------------------------------------------------------------------
+classification:
+  model_name: "vit_base_patch16_224" # timm backbone
+  img_size: 224
+  in_channels: 3 # ROI converted/expanded to 3 channels for ImageNet pretrained ViT
+  num_classes: 2
+  pretrained: true
+  drop_rate: 0.1
+  drop_path_rate: 0.1
+  
+  # Training hyperparameters
+  training:
+    batch_size: 16
+    epochs: 40
+    lr: 0.0001
+    weight_decay: 0.01
+    patience: 8
+    label_smoothing: 0.05
+    class_weights: "auto" # "auto" = computed from class inverse frequencies
+    mixed_precision: true
+    
+  checkpoint_path: "models/vit_best.pth"
+
+# ------------------------------------------------------------------------------
+# 6. Explainability & Attention Rollout
+# ------------------------------------------------------------------------------
+explainability:
+  rollout_method: "mean" # "mean", "min", or "max" attention head aggregation
+  discard_ratio: 0.9 # discard lower 90% attention noise in rollout
+  head_reduction: "mean"
+  colormap: "jet" # "jet", "inferno", "magma"
+  overlay_alpha: 0.55
+
+# ------------------------------------------------------------------------------
+# 7. Output & Logging Directories
+# ------------------------------------------------------------------------------
+paths:
+  results_dir: "results"
+  preprocessing_results: "results/preprocessing"
+  segmentation_results: "results/segmentation"
+  classification_results: "results/classification"
+  figures_dir: "results/figures"
+  models_dir: "models"

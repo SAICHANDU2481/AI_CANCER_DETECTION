@@ -1,0 +1,12 @@
+Metric,Count,Percentage
+Total Validation Cohort,541,100.0%
+Arm 1 Baseline Hits (IoU>=0.30),113,20.89%
+Arm 1 Baseline Misses (IoU<0.30),428,79.11%
+Baseline Misses -> Recovered by 768 (Arm 2),51,11.92% of missed
+Baseline Misses -> Recovered by Multi-Threshold (Arm 3),2,0.47% of missed
+Baseline Misses -> Recovered by Calc Pathway (Arm 5),17,3.97% of missed
+Baseline Misses -> Recovered by Detail Pathway (Arm 6),20,4.67% of missed
+Baseline Misses -> Recovered by Naive Multi-Scale (Arm 4),51,11.92% of missed
+Baseline Misses -> Recovered by V9 Full (Arm 9),43,10.05% of missed
+V9 Arm 9 Total Hits (IoU>=0.30),127,23.48%
+Persistent Misses in V9 Arm 9 (IoU<0.30),414,76.52%

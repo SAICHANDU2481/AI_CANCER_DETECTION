@@ -1,0 +1,17 @@
+{
+  "phase": "V9 Phase 1",
+  "timestamp": "2026-10-03 13:13:44",
+  "governance_status": "PASSED",
+  "test_reads": 0,
+  "test_cache_absent": true,
+  "train_scans_processed": 2501,
+  "val_scans_processed": 541,
+  "patient_leakage": 0,
+  "ukan_v6_md5": "68cfc38cfbddd93d6e4a6e692fffbb34",
+  "ukan_md5_verified": true,
+  "ground_truth_isolation": "Strict: Ground truth masks only used post-candidate generation for validation metric evaluation",
+  "ranking_label_free": true,
+  "random_seed": 42,
+  "winning_arm": "Arm 9 (V9 Full Multi-Source + Ranking)",
+  "winning_recall_k5_iou30": 23.475046210720887
+}

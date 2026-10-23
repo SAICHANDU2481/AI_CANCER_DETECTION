@@ -1,0 +1,94 @@
+{
+  "model_name": "MultiScaleViTV5_Arm_I",
+  "checkpoint_path": "models/v5/classification/vit_v5_arm_i_best.pth",
+  "checkpoint_md5": "ec80689a43a906f89a15d7148cf7b05e",
+  "num_test_records": 526,
+  "num_patients": 235,
+  "primary_metrics": {
+    "accuracy": 0.6501901140684411,
+    "precision": 0.55893536121673,
+    "recall_sensitivity": 0.6837209302325581,
+    "specificity": 0.6270096463022508,
+    "binary_f1": 0.6150627615062761,
+    "macro_f1": 0.6472526351085388,
+    "roc_auc": 0.6987586928886562,
+    "pr_auc": 0.5915884468049556,
+    "tp": 147,
+    "fp": 116,
+    "tn": 195,
+    "fn": 68
+  },
+  "confidence_intervals_95": {
+    "accuracy_ci": [
+      0.6102186311787072,
+      0.6901140684410646
+    ],
+    "binary_f1_ci": [
+      0.5619469026548672,
+      0.6666982922201138
+    ],
+    "macro_f1_ci": [
+      0.6065155679967679,
+      0.6873354156730496
+    ],
+    "sensitivity_ci": [
+      0.6227146464646465,
+      0.7421041781198461
+    ],
+    "specificity_ci": [
+      0.5704811005534092,
+      0.6805133279290448
+    ],
+    "roc_auc_ci": [
+      0.651848168543615,
+      0.743537555726303
+    ],
+    "pr_auc_ci": [
+      0.5226302431482425,
+      0.658366191657619
+    ],
+    "precision_ci": [
+      0.5,
+      0.6183430224661107
+    ]
+  },
+  "subgroup_metrics": {
+    "mass": {
+      "count": 267,
+      "accuracy": 0.602996254681648,
+      "sensitivity": 0.7054263565891473,
+      "specificity": 0.5072463768115942,
+      "macro_f1": 0.6005250677506775,
+      "roc_auc": 0.646388046286934,
+      "tp": 91,
+      "fp": 68,
+      "tn": 70,
+      "fn": 38
+    },
+    "calcification": {
+      "count": 259,
+      "accuracy": 0.6988416988416989,
+      "sensitivity": 0.6511627906976745,
+      "specificity": 0.7225433526011561,
+      "macro_f1": 0.675834403080873,
+      "roc_auc": 0.7321548595241296,
+      "tp": 56,
+      "fp": 48,
+      "tn": 125,
+      "fn": 30
+    }
+  },
+  "error_analysis": {
+    "false_negatives_count": 68,
+    "false_positives_count": 116,
+    "fn_by_abnormality": {
+      "MASS": 38,
+      "CALCIFICATION": 30
+    },
+    "fp_by_abnormality": {
+      "MASS": 68,
+      "CALCIFICATION": 48
+    }
+  },
+  "evaluation_time_sec": 225.73204112052917
+}
